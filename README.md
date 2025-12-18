@@ -66,41 +66,67 @@
 
 # 
 
-# \### \[Unit 4: Biometry](unit-4-biometry/) ✨ \*\*NOW AVAILABLE\*\*
+### 🩺 Unit 4: Biometry - The Ecologist's Statistical Stethoscope ⭐ **COMPLETE**
 
-# \*\*Status\*\*: ✅ Complete and Interactive
+**Status**: ✅ All interactive notebooks ready! **5/5 Complete**
 
-# 
+Learn statistics through the **doctor-stethoscope analogy**: Just as doctors use stethoscopes to detect patterns in heartbeats, ecologists use statistical distributions to detect patterns in nature's data.
 
-# The statistical foundation for understanding ecological data.
+#### 📓 Interactive Jupyter Notebooks (Google Colab - One Click!)
 
-# 
+All notebooks work instantly in Google Colab - **no installation required!**
 
-# \*\*The Core Analogy:\*\* \*Just as a doctor uses a stethoscope to detect hidden patterns in heartbeats, ecologists use statistical distributions as their instrument to detect patterns in nature's data.\*
+1. **Distributions Exploration** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/01_distributions_exploration.ipynb)
+   - Interactive exploration of Binomial, Poisson, Normal distributions
+   - Adjustable sliders to see shapes change in real-time
+   - Comparison of all 8 distributions
+   - Stethoscope analogy introduction
 
-# 
+2. **Central Tendency Analysis** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/02_central_tendency_analysis.ipynb)
+   - Mean, Median, Mode visualized
+   - How distribution shape affects measures
+   - Interactive outlier demonstration
+   - Real ecological species abundance examples
 
-# \#### What's Inside:
+3. **Dispersion Measures** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/03_dispersion_measures.ipynb)
+   - Range, IQR, Variance, Standard Deviation
+   - 68-95-99.7 rule visualization
+   - Same mean, different spread demonstrations
+   - Coefficient of Variation
 
-# 
+4. **Sampling Techniques** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/04_sampling_techniques.ipynb)
+   - Visual comparison of Random, Systematic, Stratified, Cluster sampling
+   - Spatial visualizations showing sample distribution
+   - Method accuracy and precision comparison
+   - Sample size effect demonstration
 
-# 📊 \*\*Interactive Tools:\*\*
+5. **Hypothesis Testing** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/05_hypothesis_testing.ipynb)
+   - Chi-square test (χ²) with genetics and habitat preference
+   - Independent and Paired t-tests
+   - p-value interpretation
+   - Complete the 7-step Pattern Hunter journey!
 
-# \- Main Stethoscope Explorer (7-step journey)
+#### 🎯 What's Included:
 
-# \- Distribution Gallery (8 probability distributions)
+- ✅ **5 Complete Interactive Notebooks** - All working in Google Colab
+- ✅ **Pattern Hunter Philosophy** - Discover before memorize
+- ✅ **Real Ecological Examples** - Every concept tied to biology
+- ✅ **Interactive Visualizations** - Plotly sliders and animations
+- ✅ **Step-by-step Explanations** - Learn by doing
+- ✅ **No Installation Needed** - Run in browser instantly
 
-# \- Central Tendency Visualizer
+#### 📊 The 8 Distribution Filters:
 
-# \- Dispersion Calculator
+Think of these as different "settings" on your statistical stethoscope:
 
-# \- Sampling Simulator
-
-# \- Hypothesis Testing Lab
-
-# 
-
-# 📚 \*\*Topics Covered:\*\*
+1. **Binomial** - Success/failure events (seed germination)
+2. **Poisson** - Rare events (species colonization)
+3. **Normal** - Natural variation (plant heights)
+4. **Uniform** - Equal probability (random sampling)
+5. **Exponential** - Waiting times (time between events)
+6. **Geometric** - Trials until success
+7. **Negative Binomial** - Overdispersed counts (parasites)
+8. **Log-Normal** - Multiplicative processes (population sizes)# 📚 \*\*Topics Covered:\*\*
 
 # \- Biological Data Types
 
@@ -360,7 +386,7 @@
 
 # @software{interactive\_ecology\_2025,
 
-# &nbsp; author       = {{The Pattern Hunter Team}},
+# &nbsp; author       = {{Dr. Alok Patel}},
 
 # &nbsp; title        = {{Interactive Ecology and Biometry Learning Platform}},
 
@@ -444,7 +470,7 @@
 
 # 
 
-# \*\*Made with 💚 by The Pattern Hunter Team\*\*
+# \*\*Made with 💚 by Dr Alok Patel\*\*
 
 # 
 
