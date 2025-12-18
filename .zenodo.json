@@ -1,0 +1,38 @@
+{
+  "title": "Interactive Ecology and Biometry Learning Platform",
+  "description": "Interactive learning materials for ecology and biometry using the Pattern Hunter philosophy. Includes Unit 4: Biometry with 8 probability distributions, interactive widgets, and ecological examples. Features the doctor-stethoscope analogy for understanding statistical thinking.",
+  "creators": [
+    {
+      "name": "The Pattern Hunter Team",
+      "affiliation": "Pattern Hunter Educational Initiative"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "upload_type": "software",
+  "keywords": [
+    "ecology",
+    "biometry",
+    "statistics",
+    "education",
+    "interactive learning",
+    "probability distributions",
+    "pattern discovery",
+    "data visualization",
+    "statistical thinking",
+    "ecological data analysis"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/The-Pattern-Hunter/interactive-ecology-biometry",
+      "resource_type": "software"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Open Source Contributors",
+      "type": "Other"
+    }
+  ]
+}

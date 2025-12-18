@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Interactive Ecology and Biometry Learning Platform"
+version: 1.0.0
+date-released: 2025-01-15
+authors:
+  - family-names: "Pattern Hunter Team"
+    given-names: "The"
+url: "https://github.com/The-Pattern-Hunter/interactive-ecology-biometry"
+repository-code: "https://github.com/The-Pattern-Hunter/interactive-ecology-biometry"
+keywords:
+  - ecology
+  - biometry
+  - statistics
+  - education
+  - interactive-learning
+  - pattern-hunter
+  - probability-distributions
+  - data-visualization
+license: CC-BY-4.0
+abstract: "Interactive learning platform for ecology and biometry using the Pattern Hunter philosophy. Students discover patterns in data before learning formulas, using the doctor-stethoscope analogy to understand statistical distributions."
