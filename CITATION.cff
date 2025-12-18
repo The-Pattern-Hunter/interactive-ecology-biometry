@@ -22,7 +22,7 @@ keywords:
   - jupyter-notebooks
   - google-colab
 license: CC-BY-4.0
-abstract: "Interactive learning platform for ecology and biometry using the Pattern Hunter philosophy. Students discover patterns in data before learning formulas, using the doctor-stethoscope analogy to understand statistical distributions. Includes 5 complete interactive Jupyter notebooks covering probability distributions, central tendency, dispersion, sampling techniques, and hypothesis testing."
+abstract: "Interactive learning platform for ecology and biometry using the Pattern Hunter philosophy. Students discover patterns in data before learning formulas, using the doctor-stethoscope analogy to understand statistical distributions. Includes 6 complete interactive Jupyter notebooks covering probability distributions, central tendency, dispersion, sampling techniques, and hypothesis testing and deep dive into statistical fundamentals (p-values, power, Type I/II errors, confidence intervals, degrees of freedom, effect sizes)."
 references:
   - type: software
     title: "Unit 4: Biometry - The Ecologist's Statistical Stethoscope"
