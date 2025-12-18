@@ -4,6 +4,7 @@
 ### *Discovering Patterns in Nature Through Interactive Learning*
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17978083.svg)](https://doi.org/10.5281/zenodo.17978083)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![GitHub Stars](https://img.shields.io/github/stars/The-Pattern-Hunter/interactive-ecology-biometry?style=social)](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/stargazers)
 
@@ -256,21 +257,23 @@ We welcome contributions from ecologists, educators, programmers, and students!
 ## 📖 Citation
 
 If you use these materials in teaching or research, please cite:
+
+### BibTeX:
 ```bibtex
 @software{interactive_ecology_2025,
   author       = {{Dr. Alok Patel}},
   title        = {{Interactive Ecology and Biometry Learning Platform}},
   year         = 2025,
-  publisher    = {GitHub},
-  url          = {https://github.com/The-Pattern-Hunter/interactive-ecology-biometry},
-  note         = {Unit 4: Biometry - 5 interactive Jupyter notebooks}
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17978083},
+  url          = {https://github.com/The-Pattern-Hunter/interactive-ecology-biometry}
 }
 ```
 
-**APA Style:**
+### APA Style:
 ```
-Patel, A. (2025). Interactive Ecology and Biometry Learning Platform (Version 1.0) 
-[Computer software]. GitHub. https://github.com/The-Pattern-Hunter/interactive-ecology-biometry
+Patel, A. (2025). Interactive Ecology and Biometry Learning Platform (Version 1.0.0) 
+[Computer software]. Zenodo. https://doi.org/10.5281/zenodo.17978083
 ```
 
 ---
@@ -301,9 +304,10 @@ Patel, A. (2025). Interactive Ecology and Biometry Learning Platform (Version 1.
 
 ## 🏆 Milestones
 
-- [x] ✅ **January 2025**: Repository created
-- [x] ✅ **January 2025**: Unit 4 complete (5 notebooks)
-- [x] ✅ **January 2025**: GitHub Pages enabled
+- [x] ✅ **December 2024**: Repository created
+- [x] ✅ **December 2024**: Unit 4 complete (5 notebooks)
+- [x] ✅ **December 2024**: GitHub Pages enabled
+- [x] ✅ **December 2024**: Zenodo DOI obtained
 - [ ] 🚧 **Q1 2025**: HTML interactive widgets
 - [ ] 🚧 **Q1 2025**: Sample datasets published
 - [ ] 🚧 **Q2 2025**: Unit 1 development begins
@@ -311,7 +315,7 @@ Patel, A. (2025). Interactive Ecology and Biometry Learning Platform (Version 1.
 
 ---
 
-## 📊 Statistics
+## 📊 Repository Stats
 
 <div align="center">
 
@@ -348,7 +352,7 @@ Patel, A. (2025). Interactive Ecology and Biometry Learning Platform (Version 1.
 
 - 💬 **Discussions**: [Ask questions, share ideas](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/discussions)
 - 🐛 **Issues**: [Report bugs, request features](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/issues)
-- 📧 **Email**: [Contact maintainer](mailto:your-email@example.com) *(update with real email)*
+- 📧 **Email**: Contact maintainer for inquiries
 
 ---
 
@@ -380,6 +384,6 @@ It helps others discover these materials.
 [🤝 Contribute](#-contributing) • 
 [📖 Cite This Work](#-citation)
 
-**Last Updated**: December 2024
+**Last Updated**: December 2024 | **DOI**: [10.5281/zenodo.17978083](https://doi.org/10.5281/zenodo.17978083)
 
 </div>
