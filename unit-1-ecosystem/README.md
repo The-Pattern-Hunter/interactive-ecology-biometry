@@ -11,9 +11,9 @@
 
 This unit explores how organisms interact with each other and their environment, forming complex ecological systems. Through the **Pattern Hunter Philosophy**, we'll discover how energy flows, matter cycles, and life organizes itself at different scales.
 
-### Status: 🚧 **IN PROGRESS** - 3/5 Notebooks Complete (60%)
+### Status: ✅ **COMPLETE** - 5/5 Notebooks Ready!
 
-All completed notebooks work instantly in Google Colab with no installation required.
+All notebooks work instantly in Google Colab with no installation required.
 
 ---
 
@@ -26,10 +26,10 @@ Click any badge to launch immediately in Google Colab:
 | 1 | **Ecosystem Basics** ✅ | Autecology vs Synecology, biotic/abiotic components, habitat vs niche | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/01_ecosystem_basics.ipynb) |
 | 2 | **Food Webs & Energy Flow** ✅ | Trophic levels, 10% rule, energy efficiency, food chains vs webs | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/02_food_webs_energy_flow.ipynb) |
 | 3 | **Ecological Pyramids** ✅ | Pyramids of numbers, biomass, energy; inverted pyramids | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/03_ecological_pyramids.ipynb) |
-| 4 | **Biogeochemical Cycles** 🚧 | Carbon, Nitrogen, Phosphorus, Water cycles | 🚧 Coming Soon |
-| 5 | **Limiting Factors** 🚧 | Liebig's Law, tolerance curves, physical factors | 🚧 Coming Soon |
+| 4 | **Biogeochemical Cycles** ✅ | Carbon, Nitrogen, Phosphorus, Water cycles; human impacts | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/04_biogeochemical_cycles.ipynb) |
+| 5 | **Limiting Factors** ✅ | Liebig's Law, Shelford's Law, Q₁₀ rule, tolerance curves | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/05_limiting_factors.ipynb) |
 
-**⏱️ Total Time**: ~6-8 hours (when complete)
+**⏱️ Total Time**: ~8-10 hours
 
 ---
 
@@ -42,9 +42,9 @@ By the end of this unit, you will be able to:
 3. ✅ Trace **energy flow** through food chains and webs
 4. ✅ Calculate **ecological efficiency** between trophic levels
 5. ✅ Interpret **ecological pyramids** (numbers, biomass, energy)
-6. ⏳ Explain major **biogeochemical cycles** (C, N, P, H₂O)
-7. ⏳ Apply **Liebig's Law** of limiting factors
-8. ⏳ Understand how **physical factors** affect organisms
+6. ✅ Explain major **biogeochemical cycles** (C, N, P, H₂O)
+7. ✅ Apply **Liebig's Law** of limiting factors
+8. ✅ Understand how **physical factors** affect organisms
 
 ---
 
@@ -85,25 +85,21 @@ By the end of this unit, you will be able to:
 - Interactive pyramid builder
 - Silver Springs classic study (real data)
 
-### 🚧 6️⃣ Biogeochemical Cycles (Coming Soon)
-- **Carbon Cycle**: Photosynthesis ↔ Respiration
-- **Nitrogen Cycle**: Fixation → Nitrification → Denitrification
-- **Phosphorus Cycle**: Geological reservoir
-- **Water (Hydrological) Cycle**: Evaporation → Precipitation
-- Human impacts on cycles
+### ✅ 6️⃣ Biogeochemical Cycles (Notebook 4)
+- **Carbon Cycle**: Photosynthesis ↔ Respiration, CO₂ trends
+- **Nitrogen Cycle**: 5 transformations (fixation, nitrification, assimilation, ammonification, denitrification)
+- **Phosphorus Cycle**: Sedimentary, slowest cycle
+- **Water (Hydrological) Cycle**: Distribution and fluxes
+- Human impacts on all cycles
 
-### 🚧 7️⃣ Limiting Factors (Coming Soon)
-- **Liebig's Law of the Minimum**
-- **Shelford's Law of Tolerance**
-- Optimal range vs tolerance limits
-- Examples: nutrients, water, temperature
-
-### 🚧 8️⃣ Physical Factors (Coming Soon)
-- **Light**: Photosynthesis, photoperiod
-- **Temperature**: Q₁₀ rule, thermal tolerance
-- **Water**: Availability, drought stress
-- **Soil**: pH, nutrients, texture
-- **Atmospheric gases**: O₂, CO₂
+### ✅ 7️⃣ Limiting Factors (Notebook 5)
+- **Liebig's Law of the Minimum** (barrel analogy)
+- **Shelford's Law of Tolerance** (tolerance curves)
+- **Q₁₀ Rule**: Temperature effects on metabolism
+- Light response curves (sun vs shade plants)
+- Water stress tolerance
+- Nutrient limitations (NPK)
+- Interactive ecosystem simulator
 
 ---
 
@@ -136,11 +132,25 @@ By the end of this unit, you will be able to:
 - Silver Springs study (Odum, 1957)
 - Ecosystem health diagnosis
 
-### 📕 Notebook 4: Biogeochemical Cycles 🚧
-*Coming Soon*
+### 📕 Notebook 4: Biogeochemical Cycles ✅
+- Energy flow vs matter cycling comparison
+- Carbon cycle Sankey diagram
+- CO₂ levels 1750-2024 (climate change)
+- Nitrogen cycle (5 transformations)
+- Natural vs human nitrogen fixation
+- Phosphorus cycle (sedimentary)
+- Water cycle distribution pie chart
+- Human impact on all 4 cycles
 
-### 📔 Notebook 5: Limiting Factors 🚧
-*Coming Soon*
+### 📔 Notebook 5: Limiting Factors ✅
+- Liebig's barrel interactive visualization
+- Shelford's tolerance curve generator
+- Q₁₀ effect demonstration (temperature)
+- Stenothermal vs eurythermal comparison
+- Light response curves (sun/shade plants)
+- Water stress tolerance (3 plant types)
+- Fertilizer experiment results
+- Complete ecosystem growth simulator
 
 ---
 
@@ -148,20 +158,17 @@ By the end of this unit, you will be able to:
 
 ### What Students Experience:
 
-#### In Current Notebooks:
+#### Throughout All Notebooks:
 - 📊 **Live visualizations** - Plotly interactive charts
 - 🎛️ **Button controls** - Switch between scenarios
 - 🌐 **Network diagrams** - Food web exploration
 - 📈 **Comparative analysis** - Side-by-side comparisons
 - 🎨 **Color-coded levels** - Visual trophic organization
 - 🔄 **Dynamic updates** - Real-time recalculations
-
-#### Coming Soon:
-- 🌐 **Build your own food web** - Add organisms, see energy flow
-- 📊 **Pyramid calculator** - Input data, generate pyramids
-- 🔄 **Cycle animations** - Watch matter cycle through ecosystems
-- 🌡️ **Tolerance curve simulator** - Explore limiting factors
-- 🎛️ **Energy flow diagrams** - Visualize the 10% rule
+- 🛢️ **Liebig's barrel** - Interactive limiting factor demo
+- 🌡️ **Tolerance curves** - Adjustable environmental factors
+- ♻️ **Sankey diagrams** - Matter and energy flow
+- 🎯 **Ecosystem simulator** - Test different conditions
 
 ---
 
@@ -175,35 +182,15 @@ unit-1-ecosystem/
 │   ├── 01_ecosystem_basics.ipynb          ✅ Complete
 │   ├── 02_food_webs_energy_flow.ipynb     ✅ Complete
 │   ├── 03_ecological_pyramids.ipynb       ✅ Complete
-│   ├── 04_biogeochemical_cycles.ipynb     🚧 Coming Soon
-│   └── 05_limiting_factors.ipynb          🚧 Coming Soon
+│   ├── 04_biogeochemical_cycles.ipynb     ✅ Complete
+│   └── 05_limiting_factors.ipynb          ✅ Complete
 │
 ├── 📚 docs/                        ← Detailed documentation
-│   ├── autecology-synecology.md
-│   ├── energy-flow.md
-│   ├── biogeochemical-cycles.md
-│   └── limiting-factors.md
-│
 ├── 📊 datasets/                    ← Sample ecological data
-│   ├── food-web-data.csv
-│   ├── energy-flow-examples.csv
-│   └── nutrient-cycles.json
-│
 ├── 🎨 interactive_widgets/        ← HTML/JS visualizations
-│   ├── food-web-builder.html
-│   ├── pyramid-calculator.html
-│   └── cycle-animator.html
-│
 ├── 📝 exercises/                   ← Practice problems
-│   ├── food-chain-problems.md
-│   ├── energy-calculations.md
-│   └── solutions/
-│
 ├── 🎬 presentations/               ← Teaching slides
-│   └── unit-1-overview.pptx
-│
 └── 🔬 scripts/                     ← Utility scripts
-    └── ecosystem-analysis.py
 ```
 
 ---
@@ -238,10 +225,11 @@ Before starting Unit 1, we **strongly recommend** completing:
 5. ✅ **Think systems** - Cause and effect relationships
 
 ### For Self-Study:
-- Complete notebooks 1-3 in order
+- Complete notebooks 1-5 in order
 - Pause and experiment with interactive elements
 - Try drawing food webs for your local area
 - Calculate energy efficiency for real organisms
+- Test limiting factors in the simulator
 
 ### For Classroom Use:
 - Use as flipped classroom material
@@ -272,16 +260,16 @@ Only about 10% of energy transfers between trophic levels. The rest is:
 - 💩 Undigested (waste) - 20%
 - 🏃 Used for movement - 10%
 
-### Why This Matters:
-- Explains why food chains are short (4-5 levels max)
-- Shows why predators are rare
-- Helps understand ecosystem productivity
-- Explains human food choices and sustainability
+### Biogeochemical Cycles (from Notebook 4):
+- **Carbon**: Gaseous, climate change concern
+- **Nitrogen**: Most complex (5 transformations)
+- **Phosphorus**: Sedimentary, slowest, often limiting
+- **Water**: Fastest, connects all other cycles
 
-### Pyramid Principles (from Notebook 3):
-- **Numbers**: Can be inverted (1 tree supports 1000 insects)
-- **Biomass**: Rarely inverted (oceans with fast phytoplankton turnover)
-- **Energy**: NEVER inverted (thermodynamics!)
+### Limiting Factors (from Notebook 5):
+- **Liebig's Law**: Growth limited by scarcest resource
+- **Shelford's Law**: Too little OR too much can limit
+- **Q₁₀ Rule**: Metabolism doubles every 10°C
 
 ---
 
@@ -328,7 +316,7 @@ Only about 10% of energy transfers between trophic levels. The rest is:
 
 ## 🤝 Contributing
 
-Help us complete Unit 1!
+Help improve Unit 1!
 
 ### We Need:
 - 📝 Real ecosystem data from your region
@@ -336,12 +324,6 @@ Help us complete Unit 1!
 - 📸 Photos of food webs, cycles, habitats
 - 🧪 Field study examples
 - 🌍 Local ecosystem case studies
-
-### Coming Soon:
-- Biogeochemical cycles notebook
-- Limiting factors notebook
-- Interactive HTML widgets
-- Sample datasets
 
 **[Open an issue](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/issues)** to suggest content!
 
@@ -351,53 +333,62 @@ Help us complete Unit 1!
 
 Track your learning:
 
-**Currently Available:**
 - [x] Understand autecology vs synecology
 - [x] Can draw a food web with at least 10 organisms
 - [x] Explain the 10% rule with examples
 - [x] Calculate ecological efficiency
 - [x] Describe all three types of pyramids
-
-**Coming Soon:**
-- [ ] Draw the nitrogen cycle from memory
-- [ ] Apply Liebig's Law to real situations
-- [ ] Explain how temperature affects organisms
+- [x] Draw the nitrogen cycle from memory
+- [x] Apply Liebig's Law to real situations
+- [x] Explain how temperature affects organisms (Q₁₀)
 
 ---
 
 ## 🎯 Learning Outcomes
 
-After completing the current notebooks (1-3), you should be able to:
+After completing all 5 notebooks, you should be able to:
 
 ### Knowledge:
 - Define autecology and synecology
 - List ecosystem components
 - Identify trophic levels
+- Name biogeochemical cycles
+- Describe limiting factors
 
 ### Comprehension:
 - Explain energy flow in your own words
 - Compare different types of pyramids
 - Distinguish between food chains and webs
+- Interpret tolerance curves
+- Understand cycle interconnections
 
 ### Application:
 - Calculate energy transfer efficiency
 - Draw food webs for local ecosystems
 - Build ecological pyramids from data
+- Trace matter through cycles
+- Apply Liebig's Law to real scenarios
 
 ### Analysis:
 - Analyze why food chains are limited
 - Evaluate pyramid inversions
 - Compare ecosystem efficiencies
+- Assess human impacts on cycles
+- Diagnose limiting factors
 
 ### Synthesis:
 - Design food web experiments
 - Create energy flow diagrams
 - Propose ecosystem management strategies
+- Integrate multiple limiting factors
+- Model ecosystem responses
 
 ### Evaluation:
 - Critique ecosystem health using pyramids
 - Judge the impact of species removal
 - Assess energy efficiency of food systems
+- Evaluate sustainability of human practices
+- Predict climate change effects
 
 ---
 
@@ -407,21 +398,25 @@ After completing the current notebooks (1-3), you should be able to:
 - Understanding energy flow helps manage protected areas
 - Food web analysis prevents ecosystem collapse
 - Pyramid analysis diagnoses ecosystem health
+- Cycle knowledge guides restoration
 
 ### Agriculture:
 - Energy pyramids explain crop vs livestock efficiency
 - 10% rule guides sustainable farming
-- Trophic efficiency in aquaculture
+- Liebig's Law optimizes fertilizer use
+- Cycle understanding prevents eutrophication
 
 ### Climate Change:
+- Carbon cycle predicts CO₂ levels
 - Energy flow changes with temperature
-- Trophic interactions shift with warming
+- Limiting factors shift with warming
 - Ecosystem responses to disturbance
 
 ### Urban Planning:
 - Ecosystem services in cities
 - Green infrastructure design
 - Urban food web management
+- Nutrient cycle management
 
 ---
 
@@ -429,15 +424,15 @@ After completing the current notebooks (1-3), you should be able to:
 
 <div align="center">
 
-**Completion: 60% (3/5 notebooks)**
+**✅ COMPLETE: 100% (5/5 notebooks)**
 
 | Notebook | Status | Progress |
 |----------|--------|----------|
 | 01 - Ecosystem Basics | ✅ Complete | ████████████ 100% |
 | 02 - Food Webs & Energy | ✅ Complete | ████████████ 100% |
 | 03 - Ecological Pyramids | ✅ Complete | ████████████ 100% |
-| 04 - Biogeochemical Cycles | 🚧 In Progress | ░░░░░░░░░░░░ 0% |
-| 05 - Limiting Factors | 🚧 In Progress | ░░░░░░░░░░░░ 0% |
+| 04 - Biogeochemical Cycles | ✅ Complete | ████████████ 100% |
+| 05 - Limiting Factors | ✅ Complete | ████████████ 100% |
 
 </div>
 
@@ -451,7 +446,7 @@ After completing the current notebooks (1-3), you should be able to:
   year         = 2025,
   publisher    = {GitHub},
   url          = {https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/tree/main/unit-1-ecosystem},
-  note         = {Interactive learning materials with 3 Jupyter notebooks (in progress)}
+  note         = {5 interactive Jupyter notebooks covering ecosystem ecology}
 }
 ```
 
@@ -469,11 +464,9 @@ You are free to share and adapt with attribution.
 
 <div align="center">
 
-## 🌱 Start Your Ecosystem Journey!
+## 🎉 Unit 1 Complete! Start Exploring!
 
-**3 notebooks ready to explore!**
-
-Click the Colab badges above to get started.
+**5 notebooks ready - Click any Colab badge above!**
 
 For statistical foundation, visit:
 
@@ -488,5 +481,3 @@ For statistical foundation, visit:
 [🤝 Contribute](../../CONTRIBUTING.md)
 
 </div>
-```
-
