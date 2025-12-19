@@ -7,7 +7,7 @@
 
 > **Professional Jupyter notebooks for learning ecology and biometry with Python**
 
-**24 interactive notebooks** • **4 complete units** • **100+ visualizations** • **Zero installation required**
+**25 interactive notebooks** • **4 complete units** • **100+ visualizations** • **Zero installation required**
 
 ---
 
@@ -30,16 +30,17 @@ jupyter notebook
 
 ## 📚 Course Content
 
-### **Unit 1: Introduction to Ecology** (5 notebooks)
+### **Unit 1: Introduction to Ecology** (6 notebooks)
 Ecosystem structure, energy flow, nutrient cycles, and global biome patterns
 
 | # | Notebook | Launch |
 |---|----------|--------|
-| 1 | **What is Ecology?** - Levels of organization, ecological principles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/01_what_is_ecology.ipynb) |
-| 2 | **Ecosystem Components** - Biotic/abiotic factors, boundaries | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/02_ecosystem_components.ipynb) |
-| 3 | **Energy Flow** - Trophic levels, pyramids, 10% rule | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/03_energy_flow.ipynb) |
-| 4 | **Nutrient Cycles** - Carbon, nitrogen, phosphorus | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/04_nutrient_cycles.ipynb) |
-| 5 | **Biomes** - World distribution, climate-vegetation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/05_biomes.ipynb) |
+| 1 | **What is Ecology?** - Levels of organization, ecological principles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/01_what_is_ecology.ipynb) |
+| 2 | **Ecosystem Components** - Biotic/abiotic factors, boundaries | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/02_ecosystem_components.ipynb) |
+| 3 | **Energy Flow** - Trophic levels, pyramids, 10% rule | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/03_energy_flow.ipynb) |
+| 4 | **Nutrient Cycles** - Carbon, nitrogen, phosphorus | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/04_nutrient_cycles.ipynb) |
+| 5 | **Biomes** - World distribution, climate-vegetation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/05_biomes.ipynb) |
+| 6 | **Decomposers** - Nature's recyclers, decomposition process | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/06_decomposers.ipynb) |
 
 ---
 
@@ -161,7 +162,7 @@ Copyright (c) 2024 Susama Kar & Alok Patel
 
 ## 📊 Repository Statistics
 
-- 📓 **24 Complete Notebooks**
+- 📓 **25 Complete Notebooks**
 - 💻 **~20,000 Lines of Code**
 - 📊 **100+ Interactive Visualizations**
 - 🎓 **~50 Hours of Content**
