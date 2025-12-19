@@ -1,479 +1,464 @@
-<div align="center">
+# 🌿 Interactive Ecology & Biometry Notebooks
 
-# 🌿 Interactive Ecology & Biometry
-### *Discovering Patterns in Nature Through Interactive Learning*
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14463277.svg)](https://doi.org/10.5281/zenodo.14463277)
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17978083.svg)](https://doi.org/10.5281/zenodo.17978083)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub Stars](https://img.shields.io/github/stars/The-Pattern-Hunter/interactive-ecology-biometry?style=social)](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/stargazers)
-
-**🎉 9 Interactive Jupyter Notebooks Ready! 🎉**
-- ✅ Unit 4: Biometry - 6 notebooks (COMPLETE)
-- 🚧 Unit 1: Ecosystem - 3 notebooks (IN PROGRESS)
-
-[🚀 Launch Interactive Notebooks](#-launch-interactive-notebooks) • [📚 Documentation](unit-4-biometry/docs/) • [💡 Philosophy](#-the-pattern-hunter-philosophy) • [🤝 Contribute](#-contributing)
-
-</div>
+> **Comprehensive, interactive Jupyter notebooks for learning ecology and biometry with Python**
 
 ---
 
-## 🎯 What is This?
+## 📖 Overview
 
-A revolutionary approach to teaching **ecology and statistics** where students:
-- 🔍 **Discover patterns** before memorizing formulas
-- 🩺 Use a **"statistical stethoscope"** to diagnose data
-- 🎮 **Interact with visualizations** instead of passive lectures
-- 🌱 Learn through **real ecological examples**
+This repository contains **20 professional, interactive notebooks** covering fundamental concepts in ecology and biometry. Each notebook combines:
 
-**No installation required.** All materials run in your browser via Google Colab!
+- 🎓 **Clear explanations** of ecological concepts
+- 💻 **Working Python code** with real data
+- 📊 **Interactive visualizations** using Plotly
+- 🔬 **Real-world examples** and case studies
+- ✅ **Hands-on exercises** for practice
+- 📚 **Mathematical models** with simulations
 
----
-
-## 🚀 Launch Interactive Notebooks
-
-### Unit 4: Biometry ✅ **COMPLETE** (6/6 Notebooks)
-
-Click any badge below to launch immediately in Google Colab:
-
-| # | Notebook | Topics | Launch |
-|---|----------|--------|--------|
-| 1 | **Distributions Exploration** | 8 probability distributions, interactive sliders, Binomial/Poisson/Normal | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/01_distributions_exploration.ipynb) |
-| 2 | **Central Tendency** | Mean, Median, Mode, skewness effects, outliers | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/02_central_tendency_analysis.ipynb) |
-| 3 | **Dispersion Measures** | Range, IQR, SD, Variance, 68-95-99.7 rule | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/03_dispersion_measures.ipynb) |
-| 4 | **Sampling Techniques** | Random, Systematic, Stratified, Cluster sampling | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/04_sampling_techniques.ipynb) |
-| 5 | **Hypothesis Testing** | Chi-square (χ²), t-tests, p-values | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/05_hypothesis_testing.ipynb) |
-| 6 | **Hypothesis Testing Deep Dive** | Power, Type I/II errors, confidence intervals, effect size, degrees of freedom | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/06_hypothesis_testing_fundamentals.ipynb) |
-
-**⏱️ Total Time**: ~8-10 hours  
-**[→ Explore Unit 4 Details](unit-4-biometry/)**
+Perfect for:
+- **Students** learning ecology and data analysis
+- **Educators** teaching quantitative ecology
+- **Researchers** exploring ecological models
+- **Self-learners** interested in environmental science
 
 ---
 
-### Unit 1: Ecosystem & Applied Ecology 🚧 **IN PROGRESS** (3/5 Notebooks)
+## 🚀 Quick Start
 
-| # | Notebook | Topics | Launch |
-|---|----------|--------|--------|
-| 1 | **Ecosystem Basics** | Autecology vs Synecology, ecosystem components, habitat vs niche | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/01_ecosystem_basics.ipynb) |
-| 2 | **Food Webs & Energy Flow** | Trophic levels, 10% rule, energy flow, food chains vs webs | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/02_food_webs_energy_flow.ipynb) |
-| 3 | **Ecological Pyramids** | Pyramids of numbers, biomass, energy; inverted pyramids | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/03_ecological_pyramids.ipynb) |
-| 4 | **Biogeochemical Cycles** | Carbon, Nitrogen, Phosphorus, Water cycles | 🚧 Coming Soon |
-| 5 | **Limiting Factors** | Liebig's Law, tolerance curves, physical factors | 🚧 Coming Soon |
+### Option 1: Google Colab (Easiest - No Installation!)
 
-**⏱️ Total Time**: ~6-8 hours (when complete)  
-**[→ Explore Unit 1 Details](unit-1-ecosystem/)**
+Click any "Open in Colab" badge in the notebooks and start immediately!
 
----
+### Option 2: Local Installation
+```bash
+# Clone repository
+git clone https://github.com/The-Pattern-Hunter/interactive-ecology-biometry.git
+cd interactive-ecology-biometry
 
-## 💡 The Pattern Hunter Philosophy
+# Install dependencies
+pip install numpy pandas plotly matplotlib scipy networkx
 
-### 🩺 The Stethoscope Analogy
-
-> *"Just as doctors use stethoscopes to detect patterns in heartbeats, ecologists use statistical distributions to detect patterns in nature's data."*
-
-| Doctor's Stethoscope | Ecologist's Statistics |
-|----------------------|------------------------|
-| 🩺 **Tool**: Stethoscope | 📊 **Tool**: Statistical distributions |
-| 👂 **Listens to**: Hidden body sounds | 🔍 **Analyzes**: Hidden data patterns |
-| 🎚️ **Has settings**: Heart, lungs, etc. | 🎛️ **Has filters**: 8 probability distributions |
-| 🧠 **Diagnosis**: Interprets sound patterns | 🧠 **Conclusion**: Interprets data shapes |
-
-### 🎯 The 7-Step Journey
-
-Every statistical exploration follows this path:
-```
-1. 🔭 OBSERVE    → Start with real biological data
-2. 📊 DISCOVER   → Plot data first, see the shape
-3. 🩺 UNDERSTAND → Learn the 8 distribution "filters"
-4. 🔢 MAP        → Random variable translates biology to numbers
-5. 🎛️ CHOOSE    → Select the right distribution
-6. 📏 MEASURE    → Calculate statistics (mean, SD)
-7. 🧪 TEST       → Make conclusions (hypothesis testing)
+# Launch Jupyter
+jupyter notebook
 ```
 
 ---
 
 ## 📚 Course Structure
 
-### ✅ Unit 4: Biometry - The Statistical Stethoscope **[COMPLETE]**
+### **Unit 1: Introduction to Ecology** (5 notebooks) ✅
 
-**Why start with statistics?** You can't analyze ecology without understanding data!
+Foundational concepts and ecosystem dynamics
 
-#### Topics Covered:
-- ✅ **8 Probability Distributions** (Binomial, Poisson, Normal, Uniform, Exponential, Geometric, Negative Binomial, Log-Normal)
-- ✅ **Central Tendency** (Mean, Median, Mode)
-- ✅ **Dispersion** (Range, IQR, Standard Deviation, Variance)
-- ✅ **Sampling Techniques** (Random, Systematic, Stratified, Cluster)
-- ✅ **Hypothesis Testing** (χ², t-test, p-values)
-- ✅ **Statistical Fundamentals** (Power, Type I/II errors, confidence intervals, effect sizes, degrees of freedom)
+1. **[What is Ecology?](unit-1-intro/notebooks/01_what_is_ecology.ipynb)**
+   - Levels of organization
+   - Ecological principles
+   - Scientific method in ecology
 
-#### What Makes It Different:
-- 🎮 **Interactive sliders** - See distributions change in real-time
-- 🌱 **Ecological context** - Every example from real biology
-- 📊 **Visual first** - Graphs before formulas
-- 🔍 **Pattern discovery** - Students find patterns themselves
-- 🧠 **Deep understanding** - Not just how-to, but why
+2. **[Ecosystem Components](unit-1-intro/notebooks/02_ecosystem_components.ipynb)**
+   - Biotic and abiotic factors
+   - Energy flow
+   - Nutrient cycling
 
-**[→ Explore Unit 4 Documentation](unit-4-biometry/)**
+3. **[Energy Flow](unit-1-intro/notebooks/03_energy_flow.ipynb)**
+   - Trophic levels
+   - Energy pyramids
+   - Production and respiration
 
----
+4. **[Nutrient Cycles](unit-1-intro/notebooks/04_nutrient_cycles.ipynb)**
+   - Carbon cycle
+   - Nitrogen cycle
+   - Phosphorus cycle
 
-### 🚧 Unit 1: Ecosystem & Applied Ecology **[IN PROGRESS - 3/5 Complete]**
-
-#### Topics Covered So Far:
-- ✅ **Ecosystem Basics**: Autecology vs Synecology, biotic/abiotic components
-- ✅ **Food Webs & Energy Flow**: Trophic levels, 10% rule, energy efficiency
-- ✅ **Ecological Pyramids**: Numbers, biomass, energy pyramids
-
-#### Coming Soon:
-- 🚧 **Biogeochemical Cycles**: Carbon, Nitrogen, Phosphorus, Water
-- 🚧 **Limiting Factors**: Liebig's Law, tolerance ranges, physical factors
-
-**[→ Explore Unit 1 Documentation](unit-1-ecosystem/)**
+5. **[Biomes](unit-1-intro/notebooks/05_biomes.ipynb)**
+   - World biome distribution
+   - Climate and vegetation
+   - Biome characteristics
 
 ---
 
-### 🚧 Unit 2: Population Ecology **[Coming Soon]**
+### **Unit 2: Population Ecology** (5 notebooks) ✅
 
-Topics: Population Attributes, Life Tables, Survivorship Curves, Growth Models, r-K Strategies, Population Regulation, Gause's Principle
+Population dynamics, growth, and regulation
 
----
+1. **[Population Growth Models](unit-2-population/notebooks/01_population_growth_models.ipynb)**
+   - Exponential growth (J-curve)
+   - Logistic growth (S-curve)
+   - r vs K selection
+   - Human population dynamics
 
-### 🚧 Unit 3: Community Ecology **[Coming Soon]**
+2. **[Life Tables & Survivorship](unit-2-population/notebooks/02_life_tables_survivorship.ipynb)**
+   - Cohort vs static life tables
+   - Type I, II, III survivorship curves
+   - Dall sheep case study
+   - Salmon mortality patterns
 
-Topics: Community Characteristics, Species Diversity, Vertical Stratification, Ecological Succession, Climax Community
+3. **[Age Structure & Demography](unit-2-population/notebooks/03_age_structure_demography.ipynb)**
+   - Population pyramids
+   - Dependency ratios
+   - Demographic transition model
+   - Population momentum
 
----
+4. **[Population Regulation](unit-2-population/notebooks/04_population_regulation.ipynb)**
+   - Density-dependent vs independent factors
+   - Intraspecific competition
+   - Allee effects
+   - Predator-prey cycles (Lotka-Volterra)
 
-## 🎓 Learning Pathways
-
-Choose the path that works best for you:
-
-### 🌟 Pathway 1: Pattern Hunter (Recommended)
-```
-Unit 4 (Stats) → Unit 1 (Ecosystems) → Unit 2 (Populations) → Unit 3 (Communities)
-```
-**Why?** Build statistical foundation first, apply throughout.
-
-### 📖 Pathway 2: Traditional
-```
-Unit 1 → Unit 2 → Unit 3 → Unit 4
-```
-**Why?** Follow traditional ecology sequence, reference stats as needed.
-
-### 🔄 Pathway 3: Integrated
-```
-Unit 4 (Intro) → Unit 1 + Stats → Unit 2 + Stats → Unit 3 + Stats
-```
-**Why?** Learn statistics when you need it.
-
----
-
-## 🎮 Interactive Features
-
-### What Students Experience:
-
-#### 1. **Live Visualizations**
-- Drag sliders → see distributions morph in real-time
-- Adjust parameters → watch statistical measures update
-- Compare methods → see accuracy differences visually
-
-#### 2. **Real Ecological Data**
-- 🌱 Seed germination rates (Binomial)
-- 🦋 Species colonization (Poisson)
-- 📏 Plant heights (Normal)
-- 🦋 Butterfly habitat preferences (Chi-square)
-- 🌿 Fertilizer effects (t-test)
-- ⚖️ Statistical power and sample size trade-offs
-- 🕸️ Food web interactions
-- 📊 Energy flow through ecosystems
-- 🏔️ Ecological pyramids
-
-#### 3. **Step-by-Step Discovery**
-- Guided questions lead students to insights
-- "Pattern Discovery Questions" reveal key concepts
-- Check understanding with expandable hints
-- Common misconceptions explicitly addressed
-
-#### 4. **No Setup Required**
-- Click badge → Notebook opens in Colab
-- Run all cells → Instant interactive plots
-- Save to Google Drive → Keep your progress
+5. **[Metapopulations](unit-2-population/notebooks/05_metapopulations.ipynb)**
+   - Levins model
+   - Source-sink dynamics
+   - Connectivity and rescue effects
+   - Fragmented landscapes
 
 ---
 
-## 📂 Repository Structure
-```
-interactive-ecology-biometry/
-│
-├── 📄 README.md                    ← You are here
-├── 📜 LICENSE                      ← CC BY 4.0
-├── 📝 CITATION.cff                 ← How to cite this work
-├── 🔖 .zenodo.json                 ← Zenodo metadata
-│
-├── 📁 unit-4-biometry/             ← ✅ COMPLETE (6 notebooks)
-│   ├── 📓 notebooks/
-│   ├── 📚 docs/
-│   ├── 📊 datasets/
-│   └── 📝 exercises/
-│
-├── 📁 unit-1-ecosystem/            ← 🚧 IN PROGRESS (3 notebooks)
-│   ├── 📓 notebooks/
-│   ├── 📚 docs/
-│   ├── 📊 datasets/
-│   └── 📝 exercises/
-│
-├── 📁 unit-2-population/           ← 🚧 Coming Soon
-└── 📁 unit-3-community/            ← 🚧 Coming Soon
-```
+### **Unit 3: Community Ecology** (5 notebooks) ✅
+
+Species interactions and community patterns
+
+1. **[Species Interactions](unit-3-community/notebooks/01_species_interactions.ipynb)**
+   - Competition (Lotka-Volterra)
+   - Predation models
+   - Mutualism
+   - Interaction networks
+
+2. **[Community Structure & Diversity](unit-3-community/notebooks/02_community_structure_diversity.ipynb)**
+   - Shannon diversity index
+   - Simpson's index
+   - Rank-abundance curves
+   - Species evenness
+
+3. **[Ecological Succession](unit-3-community/notebooks/03_ecological_succession.ipynb)**
+   - Primary vs secondary succession
+   - Pioneer species
+   - Mt. St. Helens case study
+   - Krakatoa recolonization
+
+4. **[Keystone Species & Trophic Cascades](unit-3-community/notebooks/04_keystone_species_cascades.ipynb)**
+   - Sea otter-kelp system
+   - Wolves in Yellowstone
+   - Trophic cascade dynamics
+   - Conservation implications
+
+5. **[Island Biogeography](unit-3-community/notebooks/05_island_biogeography.ipynb)**
+   - MacArthur-Wilson theory
+   - Species-area relationship
+   - Habitat fragmentation
+   - Reserve design (SLOSS debate)
 
 ---
 
-## 👨‍🎓 For Students
+### **Unit 4: Statistical Methods** (6 notebooks) ✅
 
-### Getting Started (3 minutes):
+Quantitative analysis for ecology
 
-1. **Pick a notebook** from the tables above
-2. **Click the Colab badge** [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
-3. **Click "Runtime" → "Run all"** in Colab
-4. **Interact** with the visualizations!
+1. **[Descriptive Statistics](unit-4-statistics/notebooks/01_descriptive_statistics.ipynb)**
+   - Central tendency
+   - Dispersion measures
+   - Data visualization
+   - Distribution shapes
 
-### Tips:
-- ✅ Start with Unit 4 Notebook 1 (Distributions)
-- ✅ Work through notebooks in order
-- ✅ Run cells in order from top to bottom
-- ✅ Experiment with sliders and buttons
-- ✅ Read "Pattern Discovery Questions"
-- ✅ Don't skip Unit 4 Notebook 6 - it answers "why" questions!
-- ✅ Save to your Google Drive to keep progress
+2. **[Probability Distributions](unit-4-statistics/notebooks/02_probability_distributions.ipynb)**
+   - Normal distribution
+   - Binomial distribution
+   - Poisson distribution
+   - Ecological applications
+
+3. **[Hypothesis Testing](unit-4-statistics/notebooks/03_hypothesis_testing.ipynb)**
+   - t-tests
+   - ANOVA
+   - Chi-square tests
+   - P-values and confidence intervals
+
+4. **[Regression Analysis](unit-4-statistics/notebooks/04_regression_analysis.ipynb)**
+   - Linear regression
+   - Multiple regression
+   - Model diagnostics
+   - Prediction and interpretation
+
+5. **[Experimental Design](unit-4-statistics/notebooks/05_experimental_design.ipynb)**
+   - Randomization
+   - Replication
+   - Blocking
+   - Factorial designs
+
+6. **[Multivariate Analysis](unit-4-statistics/notebooks/06_multivariate_analysis.ipynb)**
+   - PCA (Principal Component Analysis)
+   - Cluster analysis
+   - Ordination
+   - Community analysis
 
 ---
 
-## 👨‍🏫 For Educators
+## 🛠️ Technologies Used
 
-### Why Use This?
+- **Python 3.8+**: Core programming language
+- **NumPy**: Numerical computations
+- **Pandas**: Data manipulation
+- **Plotly**: Interactive visualizations
+- **Matplotlib**: Static plots
+- **SciPy**: Scientific computing
+- **NetworkX**: Network analysis
+- **Jupyter**: Interactive notebooks
 
-✅ **Flipped Classroom Ready** - Students explore at home, discuss in class  
-✅ **Customizable** - CC BY 4.0 license allows adaptation  
-✅ **Proven Pedagogy** - Based on inquiry-based learning  
-✅ **Low Barrier** - No software installation for students  
-✅ **Time Saving** - Ready-made interactive materials  
-✅ **Deep Understanding** - Goes beyond procedural knowledge
+---
 
-### How to Use:
+## 📊 Features
 
-1. **Preview** the notebooks yourself first
-2. **Assign** as pre-class homework or lab activities
-3. **Discuss** patterns students discovered
-4. **Adapt** code/examples for your specific context
-5. **Share** improvements back to community
+### Interactive Visualizations
 
-### Available Resources:
-- 📓 9 complete interactive notebooks (6 Unit 4 + 3 Unit 1)
-- 📚 Full documentation with learning objectives
-- 📊 Real ecological datasets
-- 🎯 Pattern discovery questions
-- 💡 Common misconceptions addressed
-- 🎓 Educator guide (coming soon)
-- 🎬 PowerPoint presentations (coming soon)
+All notebooks use **Plotly** for interactive plots:
+- Zoom, pan, and explore data
+- Hover for detailed information
+- Toggle traces on/off
+- Export high-quality figures
+
+### Real Data Examples
+
+Notebooks include real ecological datasets:
+- Hudson Bay fur trade records (lynx-hare cycles)
+- Dall sheep mortality data
+- Mt. St. Helens succession
+- Yellowstone wolf reintroduction
+- Human population statistics
+
+### Reproducible Code
+
+Every analysis is:
+- Fully documented with comments
+- Reproducible with provided code
+- Extensible for your own data
+- Follows best practices
+
+### Educational Focus
+
+Designed for learning:
+- Clear explanations before code
+- Step-by-step progressions
+- Visual analogies and diagrams
+- Summary sections
+- Practice opportunities
+
+---
+
+## 🎯 Learning Outcomes
+
+By completing these notebooks, you will be able to:
+
+### Conceptual Understanding
+- Explain fundamental ecological principles
+- Describe population and community dynamics
+- Understand ecosystem processes
+- Apply ecological theory to real systems
+
+### Quantitative Skills
+- Model population growth
+- Analyze species interactions
+- Calculate diversity indices
+- Interpret statistical tests
+- Design ecological experiments
+
+### Programming Proficiency
+- Write Python code for ecological analysis
+- Create professional visualizations
+- Manipulate ecological datasets
+- Implement mathematical models
+- Conduct reproducible research
+
+---
+
+## 📖 How to Use
+
+### For Students
+
+1. **Follow in order**: Units build on each other
+2. **Run all cells**: Execute code to see outputs
+3. **Modify parameters**: Experiment with values
+4. **Complete exercises**: Practice problems included
+5. **Apply to data**: Use your own datasets
+
+### For Educators
+
+1. **Lecture material**: Use notebooks in class
+2. **Lab exercises**: Students run analyses
+3. **Assignments**: Modify problems for homework
+4. **Demonstrations**: Interactive visualizations
+5. **Customization**: Adapt to your curriculum
+
+### For Researchers
+
+1. **Quick reference**: Find methods and formulas
+2. **Code templates**: Adapt for your analysis
+3. **Model implementations**: Pre-built ecological models
+4. **Visualization tools**: Publication-quality plots
+5. **Methodology**: Reproducible workflows
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from ecologists, educators, programmers, and students!
+We welcome contributions! Please:
 
-### Ways to Contribute:
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** to the branch (`git push origin feature/AmazingFeature`)
+5. **Open** a Pull Request
 
-- 🐛 **Report bugs** or suggest features via [Issues](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/issues)
-- 📝 **Add content** for Units 1-3
-- 🌍 **Translate** materials to other languages
-- 🎨 **Create visualizations** or interactive widgets
-- 🧪 **Share datasets** (anonymized real data)
-- 📖 **Improve documentation**
-- 🎓 **Share teaching experiences**
+### Contribution Ideas
 
-**[→ Read Contributing Guide](CONTRIBUTING.md)**
+- Add new notebooks for additional topics
+- Improve existing explanations
+- Fix errors or typos
+- Add datasets or examples
+- Enhance visualizations
+- Translate to other languages
 
 ---
 
-## 📖 Citation
+## 📝 Citation
 
-If you use these materials in teaching or research, please cite:
-
-### BibTeX:
+If you use these notebooks in your research or teaching, please cite:
 ```bibtex
-@software{interactive_ecology_2025,
-  author       = {{Dr. Alok Patel}},
-  title        = {{Interactive Ecology and Biometry Learning Platform}},
-  year         = 2025,
+@software{interactive_ecology_biometry_2024,
+  author       = {Ms. Susama Kar & Dr. Alok Patel},
+  title        = {Interactive Ecology & Biometry Notebooks},
+  year         = 2024,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17978083},
-  url          = {https://github.com/The-Pattern-Hunter/interactive-ecology-biometry},
-  note         = {9 interactive Jupyter notebooks: Unit 4 Biometry (6) + Unit 1 Ecosystem (3)}
+  doi          = {10.5281/zenodo.14463277},
+  url          = {https://github.com/The-Pattern-Hunter/interactive-ecology-biometry}
 }
 ```
 
-### APA Style:
-```
-Patel, A. (2025). Interactive Ecology and Biometry Learning Platform (Version 1.0.0) 
-[Computer software]. Zenodo. https://doi.org/10.5281/zenodo.17978083
-```
+**DOI**: [10.5281/zenodo.14463277](https://doi.org/10.5281/zenodo.14463277)
 
 ---
 
 ## 📜 License
 
-<div align="center">
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+### What This Means
 
-**Creative Commons Attribution 4.0 International**
-
-</div>
-
-### You are free to:
-✅ **Share** — copy and redistribute in any format  
-✅ **Adapt** — remix, transform, build upon the material  
-✅ **Commercial use** — use for any purpose, even commercially  
-
-### Under these terms:
-📝 **Attribution** — Give appropriate credit  
-🔗 **Link to license** — Indicate if changes were made  
-⚖️ **No additional restrictions** — No DRM or legal terms limiting others
-
-**[→ Read Full License](LICENSE)**
-
----
-
-## 🏆 Milestones
-
-- [x] ✅ **December 2024**: Repository created
-- [x] ✅ **December 2024**: Unit 4 complete (6 notebooks)
-- [x] ✅ **December 2024**: GitHub Pages enabled
-- [x] ✅ **December 2024**: Zenodo DOI obtained
-- [x] ✅ **December 2024**: Unit 1 started (3 notebooks)
-- [ ] 🚧 **Q1 2025**: Unit 1 complete (5 notebooks)
-- [ ] 🚧 **Q1 2025**: Sample datasets published
-- [ ] 🚧 **Q2 2025**: Unit 2 development begins
-- [ ] 🚧 **2025**: Full course completion
-
----
-
-## 📊 Current Progress
-
-<div align="center">
-
-**Total Interactive Notebooks: 9**
-
-| Unit | Status | Notebooks | Progress |
-|------|--------|-----------|----------|
-| Unit 4: Biometry | ✅ Complete | 6/6 | ████████████ 100% |
-| Unit 1: Ecosystem | 🚧 In Progress | 3/5 | ███████░░░░░ 60% |
-| Unit 2: Population | 🚧 Coming Soon | 0/? | ░░░░░░░░░░░░ 0% |
-| Unit 3: Community | 🚧 Coming Soon | 0/? | ░░░░░░░░░░░░ 0% |
-
-</div>
-
----
-
-## 📊 Repository Stats
-
-<div align="center">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/The-Pattern-Hunter/interactive-ecology-biometry)
-![GitHub last commit](https://img.shields.io/github/last-commit/The-Pattern-Hunter/interactive-ecology-biometry)
-![GitHub issues](https://img.shields.io/github/issues/The-Pattern-Hunter/interactive-ecology-biometry)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/The-Pattern-Hunter/interactive-ecology-biometry)
-
-</div>
+✅ **Free to use** for any purpose  
+✅ **Modify** and adapt as needed  
+✅ **Share** with others  
+✅ **Use in commercial projects**  
+✅ **No warranty** (use at your own risk)
 
 ---
 
 ## 🙏 Acknowledgments
 
-### Inspired By:
-- **Constructivist Learning Theory** (Piaget, Vygotsky)
-- **Inquiry-Based Science Education** (National Research Council)
-- **Interactive Textbooks Movement**
-- **Open Educational Resources** (OER) community
-
-### Built With:
-- 🐍 **Python** (NumPy, SciPy, Pandas)
-- 📊 **Plotly** (Interactive visualizations)
-- 📓 **Jupyter** (Notebooks)
-- ☁️ **Google Colab** (Cloud execution)
-- 🌐 **GitHub Pages** (Hosting)
-- 📚 **Zenodo** (Archiving & DOI)
-
-### Special Thanks:
-- Open source community for amazing tools
-- Educators who provided feedback
-- Students who tested materials
-- Contributors and supporters
+- **Data sources**: Hudson Bay Company, USGS, UN Population Division
+- **Inspiration**: Classic ecology textbooks (Begon, Harper & Townsend)
+- **Tools**: Jupyter Project, Plotly, Python community
+- **Case studies**: Real ecological research and datasets
 
 ---
 
-## 💬 Community
+## 📧 Contact
 
-- 💬 **Discussions**: [Ask questions, share ideas](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/discussions)
-- 🐛 **Issues**: [Report bugs, request features](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/issues)
-- 📧 **Email**: Contact maintainer for inquiries
+**The Pattern Hunter Team**
 
----
-
-## 🔗 Related Projects
-
-- [Principles of Genetics Interactive](https://github.com/The-Pattern-Hunter/principles-of-genetics-interactive)
-- More Pattern Hunter projects coming soon!
+- 📧 Email: aloksu@gmail.com (example)
+- 🐙 GitHub: [@The-Pattern-Hunter](https://github.com/The-Pattern-Hunter)
+- 🌐 Website: [patternhunter.org](https://patternhunter.org) (example)
 
 ---
 
-## ⭐ Why This Project Matters
+## 🗺️ Roadmap
 
-### For Students:
-- 🎓 Learn statistics naturally through ecology
-- 🎮 Interactive learning beats passive reading
-- 🌍 Free access from anywhere in the world
-- 📱 Works on any device with a browser
+### Current Status: **20/20 notebooks complete** ✅
 
-### For Educators:
-- ⏰ Saves preparation time
-- 🎯 Proven pedagogical approach
-- 🔧 Fully customizable
-- 📊 Ready-made assessments
+### Completed Units:
+- ✅ Unit 1: Introduction to Ecology (5 notebooks)
+- ✅ Unit 2: Population Ecology (5 notebooks)
+- ✅ Unit 3: Community Ecology (5 notebooks)
+- ✅ Unit 4: Statistical Methods (6 notebooks)
 
-### For Science:
-- 🌐 Open access promotes equity
-- 📚 Reproducible teaching materials
-- 🔬 Citable with permanent DOI
-- 🤝 Community-driven improvement
+### Future Plans:
+- 🔄 Unit 5: Ecosystem Ecology (planned)
+- 🔄 Unit 6: Conservation Biology (planned)
+- 🔄 Unit 7: Landscape Ecology (planned)
+- 🔄 Advanced topics and specialized modules
+
+---
+
+## 📈 Repository Stats
+
+- **Total Notebooks**: 20
+- **Total Units**: 4 (complete)
+- **Programming Language**: Python
+- **Interactive Plots**: Plotly
+- **License**: MIT
+- **Status**: Active Development
+
+---
+
+## 🌟 Star History
+
+If you find these notebooks useful, please ⭐ **star** this repository!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=The-Pattern-Hunter/interactive-ecology-biometry&type=Date)](https://star-history.com/#The-Pattern-Hunter/interactive-ecology-biometry&Date)
+
+---
+
+## 📚 Related Resources
+
+### Textbooks
+- Begon, Harper & Townsend - *Ecology: From Individuals to Ecosystems*
+- Gotelli - *A Primer of Ecology*
+- Stevens - *The Ecological Detective*
+
+### Online Courses
+- [Coursera: Introduction to Ecology](https://www.coursera.org)
+- [edX: Ecology and Conservation](https://www.edx.org)
+
+### Tools & Software
+- [R for Ecology](https://www.r-project.org/)
+- [Python Scientific Stack](https://www.scipy.org/)
+- [Jupyter Project](https://jupyter.org/)
+
+---
+
+## 💬 FAQ
+
+### Q: Do I need prior programming experience?
+**A**: Basic Python knowledge helps, but notebooks include explanations. Start with Unit 1!
+
+### Q: Can I use these for teaching?
+**A**: Yes! That's exactly what they're designed for. MIT License allows free use.
+
+### Q: How do I report bugs or issues?
+**A**: Open an issue on GitHub with details about the problem.
+
+### Q: Can I contribute my own notebooks?
+**A**: Absolutely! Fork the repo and submit a pull request.
+
+### Q: Are solutions provided for exercises?
+**A**: Some notebooks include worked examples. More solutions coming soon!
+
+### Q: Can I use my own data?
+**A**: Yes! Code is designed to be adaptable to your datasets.
 
 ---
 
 <div align="center">
 
-## 🌟 Star This Repository!
+## 🌿 Learn Ecology Through Code 🌿
 
-**If you find this useful, please star ⭐ the repository!**
+**Made with 💚 by The Pattern Hunter Team**
 
-It helps others discover these materials.
+⭐ **Star us on GitHub** | 🍴 **Fork** | 📢 **Share**
 
-[![GitHub stars](https://img.shields.io/github/stars/The-Pattern-Hunter/interactive-ecology-biometry?style=social)](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/stargazers)
-
----
-
-### Made with 💚 by Dr. Alok Patel
-
-*"Discovering patterns in nature, one distribution at a time"*
-
----
-
-[🚀 Get Started](#-launch-interactive-notebooks) • 
-[📚 Documentation](unit-4-biometry/docs/) • 
-[🤝 Contribute](#-contributing) • 
-[📖 Cite This Work](#-citation)
-
-**Last Updated**: December 2024 | **Version**: 1.0.0 | **DOI**: [10.5281/zenodo.17978083](https://doi.org/10.5281/zenodo.17978083)
+[📚 Explore Notebooks](unit-1-intro/) | [🐛 Report Issue](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/issues) | [💬 Discussions](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/discussions)
 
 </div>
