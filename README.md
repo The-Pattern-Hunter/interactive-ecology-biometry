@@ -468,7 +468,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## 👥 Authors
 
 ### Ms. Susama Kar
-**Co-Author & Developer**
+**Co-Author**
 
 ### Dr. Alok Patel
 **Co-Author & Developer**
