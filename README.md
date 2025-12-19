@@ -14,7 +14,7 @@
 ## 🚀 Quick Start
 
 **Option 1: Google Colab** (Recommended - No Installation)
-- Click any notebook link below
+- Click any [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) badge below
 - Run cells with `Shift + Enter`
 - Start learning immediately! 🎉
 
@@ -33,72 +33,72 @@ jupyter notebook
 ### **Unit 1: Introduction to Ecology** (5 notebooks)
 Ecosystem structure, energy flow, nutrient cycles, and global biome patterns
 
-| # | Notebook | Topics |
+| # | Notebook | Launch |
 |---|----------|--------|
-| 1 | [What is Ecology?](unit-1-intro/notebooks/01_what_is_ecology.ipynb) | Levels of organization, ecological principles, scientific method |
-| 2 | [Ecosystem Components](unit-1-intro/notebooks/02_ecosystem_components.ipynb) | Biotic/abiotic factors, ecosystem boundaries |
-| 3 | [Energy Flow](unit-1-intro/notebooks/03_energy_flow.ipynb) | Trophic levels, energy pyramids, 10% rule |
-| 4 | [Nutrient Cycles](unit-1-intro/notebooks/04_nutrient_cycles.ipynb) | Carbon, nitrogen, phosphorus cycles |
-| 5 | [Biomes](unit-1-intro/notebooks/05_biomes.ipynb) | World biome distribution, climate relationships |
+| 1 | **What is Ecology?** - Levels of organization, ecological principles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/01_what_is_ecology.ipynb) |
+| 2 | **Ecosystem Components** - Biotic/abiotic factors, boundaries | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/02_ecosystem_components.ipynb) |
+| 3 | **Energy Flow** - Trophic levels, pyramids, 10% rule | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/03_energy_flow.ipynb) |
+| 4 | **Nutrient Cycles** - Carbon, nitrogen, phosphorus | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/04_nutrient_cycles.ipynb) |
+| 5 | **Biomes** - World distribution, climate-vegetation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-intro/notebooks/05_biomes.ipynb) |
 
 ---
 
 ### **Unit 2: Population Ecology** (5 notebooks)
 Population dynamics, growth models, life tables, and spatial patterns
 
-| # | Notebook | Topics |
+| # | Notebook | Launch |
 |---|----------|--------|
-| 1 | [Population Growth Models](unit-2-population/notebooks/01_population_growth_models.ipynb) | Exponential, logistic growth, r vs K selection |
-| 2 | [Life Tables & Survivorship](unit-2-population/notebooks/02_life_tables_survivorship.ipynb) | Type I/II/III curves, mortality schedules |
-| 3 | [Age Structure & Demography](unit-2-population/notebooks/03_age_structure_demography.ipynb) | Population pyramids, demographic transition |
-| 4 | [Population Regulation](unit-2-population/notebooks/04_population_regulation.ipynb) | Density-dependent factors, predator-prey cycles |
-| 5 | [Metapopulations](unit-2-population/notebooks/05_metapopulations.ipynb) | Levins model, source-sink dynamics |
+| 1 | **Population Growth Models** - Exponential, logistic, r vs K | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/01_population_growth_models.ipynb) |
+| 2 | **Life Tables & Survivorship** - Type I/II/III curves, Dall sheep | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/02_life_tables_survivorship.ipynb) |
+| 3 | **Age Structure & Demography** - Pyramids, demographic transition | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/03_age_structure_demography.ipynb) |
+| 4 | **Population Regulation** - Density-dependent, predator-prey | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/04_population_regulation.ipynb) |
+| 5 | **Metapopulations** - Levins model, source-sink dynamics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/05_metapopulations.ipynb) |
 
-**Real Data**: Human population (1 CE-2050), Dall sheep life tables, Kaibab deer crash
+**Real Data**: Human population (1 CE-2050), Dall sheep, Kaibab deer crash, Nigeria/USA/Japan pyramids
 
 ---
 
 ### **Unit 3: Community Ecology** (5 notebooks)
 Species interactions, diversity, succession, and biogeography
 
-| # | Notebook | Topics |
+| # | Notebook | Launch |
 |---|----------|--------|
-| 1 | [Species Interactions](unit-3-community/notebooks/01_species_interactions.ipynb) | Competition, predation, Lotka-Volterra models |
-| 2 | [Community Structure](unit-3-community/notebooks/02_community_structure_diversity.ipynb) | Shannon diversity, Simpson's index |
-| 3 | [Ecological Succession](unit-3-community/notebooks/03_ecological_succession.ipynb) | Primary/secondary succession, pioneer species |
-| 4 | [Keystone Species](unit-3-community/notebooks/04_keystone_species_cascades.ipynb) | Trophic cascades, Yellowstone wolves |
-| 5 | [Island Biogeography](unit-3-community/notebooks/05_island_biogeography.ipynb) | MacArthur-Wilson theory, species-area |
+| 1 | **Species Interactions** - Competition, predation, Lotka-Volterra | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/01_species_interactions.ipynb) |
+| 2 | **Community Structure** - Shannon diversity, Simpson's index | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/02_community_structure_diversity.ipynb) |
+| 3 | **Ecological Succession** - Primary/secondary, pioneer species | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/03_ecological_succession.ipynb) |
+| 4 | **Keystone Species** - Trophic cascades, Yellowstone wolves | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/04_keystone_species_cascades.ipynb) |
+| 5 | **Island Biogeography** - MacArthur-Wilson, species-area, SLOSS | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/05_island_biogeography.ipynb) |
 
-**Case Studies**: Mt. St. Helens (1980-2020), Krakatoa recolonization, sea otter-kelp
+**Case Studies**: Mt. St. Helens (1980-2020), Krakatoa (1883-2013), Sea otter-kelp, West Indies birds
 
 ---
 
 ### **Unit 4: Biometry** (9 notebooks)
 Statistical methods and quantitative analysis for ecology
 
-| # | Notebook | Topics |
+| # | Notebook | Launch |
 |---|----------|--------|
-| 1 | [Distributions Exploration](unit-4-biometry/notebooks/01_distributions_exploration.ipynb) | 8 probability distributions, interactive exploration |
-| 2 | [Central Tendency](unit-4-biometry/notebooks/02_central_tendency_analysis.ipynb) | Mean, median, mode, skewness effects |
-| 3 | [Dispersion Measures](unit-4-biometry/notebooks/03_dispersion_measures.ipynb) | Range, variance, SD, 68-95-99.7 rule |
-| 4 | [Sampling Techniques](unit-4-biometry/notebooks/04_sampling_techniques.ipynb) | Random, systematic, stratified, cluster |
-| 5 | [Hypothesis Testing](unit-4-biometry/notebooks/05_hypothesis_testing.ipynb) | Chi-square, t-tests, p-values |
-| 6 | [Testing Fundamentals](unit-4-biometry/notebooks/06_hypothesis_testing_fundamentals.ipynb) | Type I/II errors, power, confidence intervals |
-| 7 | [Experimental Design](unit-4-biometry/notebooks/07_experimental_design.ipynb) | Randomization, replication, controls, blocking |
-| 8 | [Regression Analysis](unit-4-biometry/notebooks/08_regression_analysis.ipynb) | Linear, multiple, polynomial regression |
-| 9 | [ANOVA](unit-4-biometry/notebooks/09_anova.ipynb) | One-way, two-way, post-hoc tests |
+| 1 | **Distributions Exploration** - 8 probability distributions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/01_distributions_exploration.ipynb) |
+| 2 | **Central Tendency** - Mean, median, mode, skewness | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/02_central_tendency_analysis.ipynb) |
+| 3 | **Dispersion Measures** - Range, variance, SD, CV | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/03_dispersion_measures.ipynb) |
+| 4 | **Sampling Techniques** - Random, stratified, cluster | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/04_sampling_techniques.ipynb) |
+| 5 | **Hypothesis Testing** - Chi-square, t-tests, p-values | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/05_hypothesis_testing.ipynb) |
+| 6 | **Testing Fundamentals** - Type I/II errors, power, CI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/06_hypothesis_testing_fundamentals.ipynb) |
+| 7 | **Experimental Design** - Randomization, controls, blocking | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/07_experimental_design.ipynb) |
+| 8 | **Regression Analysis** - Linear, multiple, polynomial | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/08_regression_analysis.ipynb) |
+| 9 | **ANOVA** - One-way, two-way, post-hoc tests | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/09_anova.ipynb) |
 
-**Unique Approach**: Distribution-first learning with "stethoscope analogy"
+**Unique Approach**: Distribution-first learning with "stethoscope analogy" for statistical thinking
 
 ---
 
 ## 🎯 Key Features
 
-- **📊 Interactive Visualizations**: Plotly plots with zoom, pan, hover
+- **📊 Interactive Visualizations**: Plotly plots with zoom, pan, hover functionality
 - **🔬 Real Ecological Data**: Hudson Bay fur records, Mt. St. Helens, UN demographics
 - **💻 Production-Ready Code**: Well-documented, reproducible analyses
 - **🎓 Pedagogical Excellence**: Clear explanations, learning objectives, summaries
-- **🌐 Zero Setup**: Works instantly in Google Colab
+- **🌐 Zero Setup**: Works instantly in Google Colab - no installation required
 - **📈 Mathematical Models**: Lotka-Volterra, logistic growth, island biogeography
 
 ---
@@ -153,9 +153,9 @@ Copyright (c) 2024 Susama Kar & Alok Patel
 
 ## 🙏 Acknowledgments
 
-**Data Sources**: Hudson Bay Company, USGS, Yellowstone NP, UN Population Division  
+**Data Sources**: Hudson Bay Company, USGS, Yellowstone National Park, UN Population Division  
 **Inspiration**: Classic ecology textbooks, open education movement  
-**Tools**: Jupyter, Plotly, NumPy, Pandas, SciPy, NetworkX
+**Tools**: Jupyter, Plotly, NumPy, Pandas, SciPy, NetworkX, Matplotlib
 
 ---
 
@@ -166,15 +166,15 @@ Copyright (c) 2024 Susama Kar & Alok Patel
 - 📊 **100+ Interactive Visualizations**
 - 🎓 **~50 Hours of Content**
 - 🌟 **Production-Ready Quality**
-- ✅ **Fully Tested in Colab**
+- ✅ **Fully Tested in Google Colab**
 
 ---
 
 ## 🎓 Use Cases
 
-**For Students**: Self-paced learning with interactive examples  
-**For Educators**: Lecture-ready materials, customizable for courses  
-**For Researchers**: Production code templates, validated models
+**For Students**: Self-paced learning with interactive examples and real data  
+**For Educators**: Lecture-ready materials, fully customizable for courses  
+**For Researchers**: Production code templates, validated ecological models
 
 ---
 
