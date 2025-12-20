@@ -7,7 +7,7 @@
 
 > **Learn ecology and statistics through interactive pattern discovery**
 
-**27 interactive notebooks** • **Python + Plotly** • **Zero installation** • **Real ecological data**
+**28 interactive notebooks** • **Python + Plotly** • **Zero installation** • **Real ecological data**
 
 ---
 
@@ -15,7 +15,7 @@
 
 Click **Open in Colab** to launch instantly in your browser:
 
-### 📗 Unit 1: Ecosystem Ecology (7 notebooks)
+### 📗 Unit 1: Ecosystem Ecology (8 notebooks)
 
 | # | Notebook | Topic | Launch |
 |---|----------|-------|--------|
@@ -26,6 +26,7 @@ Click **Open in Colab** to launch instantly in your browser:
 | 5 | Limiting Factors | Liebig's Law, tolerance ranges | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/05_limiting_factors.ipynb) |
 | 6 | Decomposers | Nature's recyclers | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/06_decomposers.ipynb) |
 | 7 | Scientific Method | Pattern Hunter philosophy | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/07_scientific_method_pattern_hunter.ipynb) |
+| 8 | **Energy Flow & Thermodynamics** | **Laws of thermodynamics, 10% rule** | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/08_energy_flow_thermodynamics.ipynb) |
 
 [📚 Unit 1 Full Documentation →](unit-1-ecosystem/README.md)
 
@@ -75,6 +76,22 @@ Click **Open in Colab** to launch instantly in your browser:
 | 9 | ANOVA | One-way, two-way, post-hoc | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/09_anova.ipynb) |
 
 [📚 Unit 4 Full Documentation →](unit-4-biometry/README.md)
+
+---
+
+## 📚 What's Inside
+
+### Unit 1: Ecosystem Ecology (8 notebooks)
+Ecosystem basics • Food webs • Energy pyramids • Biogeochemical cycles • Limiting factors • Decomposers • Scientific method • **Energy flow & thermodynamics**
+
+### Unit 2: Population Ecology (5 notebooks)
+Growth models • Life tables • Age structure • Population regulation • Metapopulations
+
+### Unit 3: Community Ecology (6 notebooks)
+Species interactions • Diversity indices • Succession • Trophic cascades • Island biogeography • Biomes
+
+### Unit 4: Biometry & Statistics (9 notebooks)
+8 distributions • Descriptive stats • Sampling • Hypothesis testing • Experimental design • Regression • ANOVA
 
 ---
 
@@ -191,10 +208,10 @@ Copyright © 2024 Susama Kar & Dr. Alok Patel
 
 ## 📊 Repository Stats
 
-- 📓 **27 Interactive Notebooks**
-- 💻 **~25,000 Lines of Code**
-- 📊 **100+ Interactive Visualizations**
-- 🎓 **~60 Hours of Content**
+- 📓 **28 Interactive Notebooks**
+- 💻 **~26,000 Lines of Code**
+- 📊 **110+ Interactive Visualizations**
+- 🎓 **~65 Hours of Content**
 - 🌟 **Production Quality**
 - ✅ **Fully Tested in Google Colab**
 
