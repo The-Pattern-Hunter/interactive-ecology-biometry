@@ -1,415 +1,453 @@
-# 🩺 Unit 4: Biometry - The Ecologist's Statistical Stethoscope
+# 📊 Unit 4: Biometry - Statistical Methods for Ecology
 
-> *"Just as a doctor uses a stethoscope to detect hidden patterns in heartbeats, biologists use statistical distributions as their instrument to detect patterns in nature's data."*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/)
 
 ---
 
 ## 📖 Overview
 
-**Unit 4: Biometry** teaches statistical thinking through ecological examples. Unlike traditional statistics courses that start with formulas, we start with **patterns** and **discovery**.
+Biometry applies statistical methods to biological questions. This unit covers probability distributions, descriptive statistics, sampling, hypothesis testing, experimental design, regression, and ANOVA through nine interactive notebooks. **The Pattern Hunter philosophy shines here**: students explore distributions visually before formulas, building statistical intuition through ecological examples.
 
-### What Makes This Different?
-
-✨ **Distribution-First Approach**: See the shape before the formula  
-🩺 **The Stethoscope Analogy**: Statistics as a diagnostic instrument  
-🔍 **Pattern Hunter Philosophy**: Discover, don't memorize  
-🌱 **Ecological Context**: Every example from real biology  
-🎮 **Interactive Exploration**: Hands-on visualizations, not passive lectures
-
-### Status: ✅ **COMPLETE** - 6 Interactive Notebooks Ready!
-
-All notebooks work instantly in Google Colab with no installation required.
-
----
-
-## 🚀 Launch Interactive Notebooks
-
-Click any badge to launch immediately in Google Colab:
-
-| # | Notebook | Topics | Launch |
-|---|----------|--------|--------|
-| 1 | **Distributions Exploration** | 8 probability distributions, interactive sliders, Binomial/Poisson/Normal | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/01_distributions_exploration.ipynb) |
-| 2 | **Central Tendency** | Mean, Median, Mode, skewness effects, outliers | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/02_central_tendency_analysis.ipynb) |
-| 3 | **Dispersion Measures** | Range, IQR, SD, Variance, 68-95-99.7 rule | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/03_dispersion_measures.ipynb) |
-| 4 | **Sampling Techniques** | Random, Systematic, Stratified, Cluster sampling | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/04_sampling_techniques.ipynb) |
-| 5 | **Hypothesis Testing** | Chi-square (χ²), t-tests, p-values | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/05_hypothesis_testing.ipynb) |
-| 6 | **Hypothesis Testing Deep Dive** | Power, Type I/II errors, confidence intervals, effect size, degrees of freedom | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/06_hypothesis_testing_fundamentals.ipynb) |
-
-**⏱️ Total Time**: ~8-10 hours to complete all notebooks
-
----
-
-## 🩺 The Core Analogy
-
-### Doctor with Stethoscope → Biologist with Statistics
-
-| **Doctor** | **Biologist** |
-|-----------|--------------|
-| 🩺 **Tool**: Stethoscope | 📊 **Tool**: Statistical distributions |
-| 👂 **Listens to**: Hidden body sounds | 🔍 **Analyzes**: Hidden data patterns |
-| 🎚️ **Has settings**: For heart, lungs, etc. | 🎛️ **Has filters**: 8 probability distributions |
-| 🧠 **Interprets**: Sound patterns → Diagnosis | 🧠 **Interprets**: Data shapes → Understanding |
-| 💊 **Outcome**: Accurate medical diagnosis | 📈 **Outcome**: Understand biological phenomena |
-
-### The Key Insight
-
-**Randomness has SHAPE!** 
-
-Just as different medical conditions produce different sound patterns, different biological processes produce different data patterns (distributions).
-
----
-
-## 📚 Complete Unit 4 Syllabus
-
-### **1. Biological Data**
-- Types of data (qualitative vs. quantitative)
-- Discrete vs. continuous variables
-- **The Random Variable**: Translator from biology to mathematics
-
-### **2. Graphical Representation**
-- Distribution-First Approach
-- Frequency polygons
-- Histograms
-
-### **3. The 8 Probability Distributions** (Your Statistical Stethoscope)
-1. **Binomial** - Success/failure events
-2. **Poisson** - Rare events
-3. **Normal** - Natural variation
-4. **Uniform** - Equal probability
-5. **Exponential** - Waiting times
-6. **Geometric** - Trials to success
-7. **Negative Binomial** - Overdispersed counts
-8. **Log-Normal** - Multiplicative processes
-
-### **4. Measures of Central Tendency**
-- Mean (μ) - The balance point
-- Median - The middle value
-- Mode - The peak
-- When to use each measure
-
-### **5. Measures of Dispersion**
-- Range
-- Interquartile Range (IQR)
-- Mean Deviation
-- Standard Deviation (σ)
-- Variance (σ²)
-- Coefficient of Variation (CV)
-
-### **6. Sampling Techniques**
-- Random sampling
-- Systematic sampling
-- Stratified sampling
-- Cluster sampling
-- Sample size effects
-
-### **7. Hypothesis Testing**
-- Chi-square (χ²) test
-- t-test (independent & paired)
-- p-values (what they REALLY mean)
-- Type I and Type II errors
-- Statistical power
-- Confidence intervals
-- Effect size vs statistical significance
-- Degrees of freedom
-
----
-
-## 🎯 The 7-Step Pattern Hunter Journey
-
-Every statistical exploration follows this sequence:
-```
-STEP 1: 🔭 OBSERVE the Phenomenon
-        ↓ (Start with real biological data)
-
-STEP 2: 📊 DISCOVER the Shape
-        ↓ (Plot the data first)
-
-STEP 3: 🩺 UNDERSTAND the Instrument
-        ↓ (Learn the 8 distribution filters)
-
-STEP 4: 🔢 MAP Biology to Numbers
-        ↓ (Random Variable as translator)
-
-STEP 5: 🎛️ CHOOSE the Right Filter
-        ↓ (Which distribution matches?)
-
-STEP 6: 📏 MEASURE the Pattern
-        ↓ (Calculate statistics)
-
-STEP 7: 🧪 TEST Your Hypothesis
-        ↓ (Make conclusions)
-```
-
----
-
-## 🎛️ The 8 Distribution Filters
-
-Think of these as different "settings" on your statistical stethoscope.
-
-### 1️⃣ Binomial Distribution - *Success/Failure Filter*
-- **Example**: 🌱 Out of 20 seeds planted, how many germinate?
-- **Pattern**: Fixed trials, yes/no outcomes
-- **Parameters**: n (trials), p (probability)
-
-### 2️⃣ Poisson Distribution - *Rare Events Filter*
-- **Example**: 🦋 New species colonizing per year
-- **Pattern**: Rare events in fixed intervals
-- **Parameters**: λ (rate)
-
-### 3️⃣ Normal Distribution - *Natural Variation Filter*
-- **Example**: 📏 Plant heights in population
-- **Pattern**: Continuous, symmetric variation
-- **Parameters**: μ (mean), σ (standard deviation)
-
-### 4️⃣ Uniform Distribution - *Equal Probability Filter*
-- **Example**: 🎲 Random position on transect
-- **Pattern**: All outcomes equally likely
-- **Parameters**: a (min), b (max)
-
-### 5️⃣ Exponential Distribution - *Waiting Time Filter*
-- **Example**: ⏱️ Time between births
-- **Pattern**: Memoryless waiting times
-- **Parameters**: λ (rate)
-
-### 6️⃣ Geometric Distribution - *Trials to Success Filter*
-- **Example**: 🎯 Seeds planted until one germinates
-- **Pattern**: Number of trials until first success
-- **Parameters**: p (probability)
-
-### 7️⃣ Negative Binomial Distribution - *Overdispersed Filter*
-- **Example**: 🦠 Parasites per host
-- **Pattern**: Clumped/aggregated distributions
-- **Parameters**: r (successes), p (probability)
-
-### 8️⃣ Log-Normal Distribution - *Multiplicative Filter*
-- **Example**: 📊 Population sizes across species
-- **Pattern**: Right-skewed, positive values only
-- **Parameters**: μ (log mean), σ (log SD)
-
----
-
-## 📓 What's in Each Notebook?
-
-### 📘 Notebook 1: Distributions Exploration
-- Interactive sliders for Binomial, Poisson, Normal
-- Visual comparison of all 8 distributions
-- Pattern discovery exercises
-- Real ecological examples (seed germination, species counts, plant heights)
-
-### 📗 Notebook 2: Central Tendency Analysis
-- Interactive demonstrations of mean, median, mode
-- Effect of skewness on measures
-- Outlier impact visualization
-- When to use which measure
-- Real species abundance data
-
-### 📙 Notebook 3: Dispersion Measures
-- Range, IQR, Variance, Standard Deviation
-- Interactive "same mean, different spread" demos
-- 68-95-99.7 rule visualization
-- Coefficient of Variation
-- Greenhouse vs wild population comparison
-
-### 📕 Notebook 4: Sampling Techniques
-- Spatial visualizations of all 4 methods
-- Interactive comparison of accuracy/precision
-- Sample size effect on estimates
-- When to use each sampling method
-- Field-ready decision guide
-
-### 📔 Notebook 5: Hypothesis Testing
-- Chi-square test with Mendelian genetics
-- Independent t-test (fertilizer experiment)
-- Paired t-test (bird weight change)
-- Step-by-step calculations
-- Real ecological applications
-
-### 📓 Notebook 6: Hypothesis Testing Fundamentals
-- What p-values REALLY mean (common misconceptions)
-- Type I vs Type II errors visualized
-- Statistical power analysis
-- Confidence intervals properly explained
-- Degrees of freedom intuition
-- Effect size vs statistical significance
-- Best practices and golden rules
-
----
-
-## 📂 Repository Structure
-```
-unit-4-biometry/
-├── README.md                      # This file
-├── docs/                          # Documentation
-│   ├── index.md
-│   ├── 01_the_stethoscope_analogy.md
-│   ├── 02_distribution_first_approach.md
-│   ├── 03_random_variables.md
-│   ├── 04_eight_distributions.md
-│   ├── 05_central_tendency.md
-│   ├── 06_measures_of_dispersion.md
-│   ├── 07_sampling_techniques.md
-│   ├── 08_hypothesis_testing.md
-│   └── educator_guide.md
-│
-├── notebooks/                     # ✅ 6 Interactive Jupyter notebooks
-│   ├── 01_distributions_exploration.ipynb
-│   ├── 02_central_tendency_analysis.ipynb
-│   ├── 03_dispersion_measures.ipynb
-│   ├── 04_sampling_techniques.ipynb
-│   ├── 05_hypothesis_testing.ipynb
-│   └── 06_hypothesis_testing_fundamentals.ipynb
-│
-├── datasets/                      # Sample data (coming soon)
-│   └── README.md
-│
-├── interactive_widgets/           # HTML/JS tools (coming soon)
-│   └── README.md
-│
-├── exercises/                     # Practice problems (coming soon)
-│   └── README.md
-│
-└── presentations/                 # Teaching slides (coming soon)
-    └── README.md
-```
-
----
-
-## 🛤️ Learning Paths
-
-### Path 1: Complete Beginner (8-10 hours)
-1. Start with Notebook 1 (Distributions)
-2. Work through notebooks 2-6 in order
-3. Experiment with interactive elements
-4. Complete pattern discovery questions
-
-### Path 2: Refresher Course (4-6 hours)
-- Focus on Notebooks 4-6
-- Review hypothesis testing deeply
-- Understand p-values and power
-
-### Path 3: Quick Reference
-- Jump to specific notebooks as needed
-- Use during ecology units 1-3
-- Reference distribution catalog
-
----
-
-## 👨‍🏫 For Educators
-
-### Teaching Resources:
-- ✅ 6 complete interactive notebooks
-- ✅ Flipped classroom ready
-- ✅ Real ecological datasets embedded
-- ✅ Pattern discovery questions
-- ✅ Common misconceptions addressed
-
-### Pedagogical Approach:
-- **Visual first**: Plots before formulas
-- **Discovery learning**: Students find patterns
-- **Ecological context**: Every example from biology
-- **Interactive engagement**: Sliders, buttons, animations
-- **Deep understanding**: Not just procedural knowledge
-
-### Customization:
-All materials are **CC BY 4.0** - freely adapt for your needs!
+**Core Innovation**: The **Stethoscope Analogy** - statistical distributions as diagnostic instruments, each detecting specific patterns in ecological data.
 
 ---
 
 ## 🎯 Learning Outcomes
 
-After completing Unit 4, students will be able to:
+By completing this unit, you will:
 
-### Knowledge:
-- Identify the 8 probability distributions
-- Define statistical terms correctly
-- Understand the stethoscope analogy
-
-### Comprehension:
-- Explain why different distributions exist
-- Interpret p-values correctly
-- Distinguish Type I from Type II errors
-
-### Application:
-- Choose appropriate distributions for data
-- Calculate central tendency and dispersion
-- Perform hypothesis tests
-
-### Analysis:
-- Diagnose which test to use
-- Evaluate statistical power
-- Critique research methodology
-
-### Synthesis:
-- Design sampling strategies
-- Create statistical analysis plans
-- Integrate statistics with ecology
-
-### Evaluation:
-- Judge quality of statistical arguments
-- Assess biological vs statistical significance
-- Critique published research
+1. **Recognize and apply** 8 probability distributions to ecological data
+2. **Calculate and interpret** measures of central tendency and dispersion
+3. **Design sampling strategies** (random, stratified, systematic, cluster)
+4. **Conduct hypothesis tests** (chi-square, t-tests, ANOVA)
+5. **Design rigorous experiments** with proper controls and randomization
+6. **Perform regression analysis** (linear, multiple, polynomial)
+7. **Apply ANOVA** for comparing multiple groups
+8. **Think statistically** using the Pattern Hunter approach
 
 ---
 
-## 📖 Citation
+## 📚 Notebooks
 
-### For the entire unit:
-```bibtex
-@software{biometry_unit4_2025,
-  author       = {{Dr. Alok Patel}},
-  title        = {{Unit 4: Biometry - The Ecologist's Statistical Stethoscope}},
-  year         = 2025,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17978083},
-  url          = {https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/tree/main/unit-4-biometry},
-  note         = {6 interactive Jupyter notebooks}
-}
+### 1. Distributions Exploration 🔍
+
+**The Foundation**: Interactive exploration of 8 probability distributions
+
+**Distributions Covered**:
+- **Binomial**: Success/failure trials (seed germination, survival)
+- **Poisson**: Rare, independent events (species per quadrat)
+- **Normal**: Continuous, symmetric (height, weight, measurement error)
+- **Uniform**: Equal probability (random number generation)
+- **Exponential**: Time between events, constant rate (radioactive decay, survival time)
+- **Geometric**: Trials until first success (captures until recapture)
+- **Negative Binomial**: Trials until r successes (overdispersed counts)
+- **Log-Normal**: Skewed, positive (body mass, population size)
+
+**The Stethoscope Analogy** 🩺:
 ```
+Doctor's Tool          Ecologist's Tool
+------------           ----------------
+Stethoscope     ↔      Normal distribution (detect random variation)
+Thermometer     ↔      Poisson distribution (detect rare events)
+Blood pressure  ↔      Binomial distribution (detect success/failure)
+X-ray           ↔      Exponential distribution (detect constant-rate processes)
+```
+
+**Interactive Features**:
+- Parameter sliders (μ, σ, λ, p, etc.)
+- Real-time shape changes
+- Ecological examples for each
+- Pattern recognition exercises
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/01_distributions_exploration.ipynb)
+
+**Pattern Hunter**: See distributions as SHAPES first (bell curve, J-curve, exponential decay), understand when to use each TOOL, then learn formulas.
+
+**Learning Time**: ~2 hours
+
+---
+
+### 2. Central Tendency Analysis 📍
+
+**Topics**: Mean, median, mode, geometric mean, trimmed mean, skewness, outliers
+
+**Key Concepts**:
+- **Mean (x̄)**: Average, sensitive to outliers
+- **Median**: Middle value, robust to outliers
+- **Mode**: Most frequent, useful for categorical
+- **When to use which**: Depends on distribution shape
+- **Skewness**: Right (positive), left (negative), symmetric
+
+**Pattern Recognition**: 
+- Symmetric → Mean ≈ Median ≈ Mode
+- Right-skewed → Mean > Median > Mode
+- Left-skewed → Mode > Median > Mean
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/02_central_tendency_analysis.ipynb)
+
+**Real Examples**: Tree heights, animal weights, species counts
+
+**Learning Time**: ~1.5 hours
+
+---
+
+### 3. Dispersion Measures 📏
+
+**Topics**: Range, variance, standard deviation, coefficient of variation, interquartile range
+
+**Key Concepts**:
+- **Range**: Max - Min (simple but sensitive to outliers)
+- **Variance (s²)**: Average squared deviation from mean
+- **Standard Deviation (SD)**: √variance (same units as data)
+- **Coefficient of Variation (CV)**: SD/Mean × 100% (unitless comparison)
+- **IQR**: Q₃ - Q₁ (robust to outliers)
+
+**Pattern Recognition**:
+- High dispersion = Spread out, high variability
+- Low dispersion = Clustered, consistent
+- CV allows comparing variability across different scales
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/03_dispersion_measures.ipynb)
+
+**Applications**: Population variability, measurement precision, comparing datasets
+
+**Learning Time**: ~1.5 hours
+
+---
+
+### 4. Sampling Techniques 🎯
+
+**Topics**: Random, stratified, systematic, cluster sampling, sample size determination
+
+**Sampling Methods**:
+- **Simple Random**: Every unit equal probability
+- **Stratified**: Divide into groups, sample each proportionally
+- **Systematic**: Every nth unit (transects)
+- **Cluster**: Sample groups, then all within selected groups
+
+**Key Concepts**:
+- Sampling error vs bias
+- Representative samples
+- Sample size affects precision
+- Trade-offs: accuracy vs cost
+
+**Interactive Simulations**: Compare methods on simulated populations, see bias and variance
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/04_sampling_techniques.ipynb)
+
+**Real Applications**: Quadrat sampling, mark-recapture, transect surveys
+
+**Learning Time**: ~1.5 hours
+
+---
+
+### 5. Hypothesis Testing 🧪
+
+**Topics**: Chi-square, one-sample t-test, two-sample t-test, paired t-test, p-values
+
+**Hypothesis Testing Framework**:
+1. State H₀ (null) and H₁ (alternative)
+2. Choose significance level (α = 0.05)
+3. Calculate test statistic
+4. Find p-value
+5. Decision: Reject H₀ if p < α
+
+**Tests Covered**:
+- **Chi-square**: Categorical data (goodness-of-fit, independence)
+- **One-sample t**: Does mean differ from hypothesized value?
+- **Two-sample t**: Do two groups differ?
+- **Paired t**: Do paired measurements differ?
+
+**Pattern Recognition**: Test statistic distributions (chi-square, t) are our "stethoscopes" - each detects specific deviation from null hypothesis.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/05_hypothesis_testing.ipynb)
+
+**Real Examples**: Habitat preference (chi-square), fertilizer effects (t-test)
+
+**Learning Time**: ~2 hours
+
+---
+
+### 6. Hypothesis Testing Fundamentals 🎓
+
+**Topics**: Type I/II errors, power, confidence intervals, effect size, one-tailed vs two-tailed
+
+**Critical Concepts**:
+- **Type I error (α)**: False positive, reject true H₀
+- **Type II error (β)**: False negative, fail to reject false H₀
+- **Power (1-β)**: Probability of detecting real effect
+- **Confidence Interval**: Range likely to contain true parameter
+- **Effect size**: Magnitude of difference (practical significance)
+
+**Decision Matrix**:
+```
+                H₀ True         H₀ False
+Reject H₀       Type I Error    Correct (Power)
+Fail to Reject  Correct (1-α)   Type II Error
+```
+
+**Interactive**: Adjust sample size, effect size, α - see power change
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/06_hypothesis_testing_fundamentals.ipynb)
+
+**Learning Time**: ~1.5 hours
+
+---
+
+### 7. Experimental Design 🔬
+
+**Topics**: ANOVA basics, controls, randomization, replication, blocking, factorial designs
+
+**Design Principles**:
+- **Randomization**: Eliminates bias
+- **Replication**: Estimates variability, increases power
+- **Controls**: Baseline for comparison
+- **Blocking**: Accounts for known variability
+
+**Design Types**:
+- **Completely Randomized Design (CRD)**: Random assignment to treatments
+- **Randomized Complete Block Design (RCBD)**: Blocks account for spatial/temporal variation
+- **Factorial Design**: Multiple factors, test interactions
+
+**Pattern Recognition**: Good design = Less noise, clearer signal
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/07_experimental_design.ipynb)
+
+**Real Applications**: Field experiments, greenhouse trials, plot-based studies
+
+**Learning Time**: ~1.5 hours
+
+---
+
+### 8. Regression Analysis 📈
+
+**Topics**: Simple linear, multiple, polynomial regression, R², residuals, assumptions
+
+**Regression Framework**:
+- **Simple Linear**: y = β₀ + β₁x + ε (one predictor)
+- **Multiple**: y = β₀ + β₁x₁ + β₂x₂ + ... + ε (multiple predictors)
+- **Polynomial**: y = β₀ + β₁x + β₂x² + ... + ε (curved relationships)
+
+**Key Concepts**:
+- **R²**: Proportion of variance explained (0-1)
+- **Slope (β₁)**: Change in y per unit x
+- **Residuals**: Observed - Predicted (should be random)
+- **Assumptions**: Linearity, independence, homoscedasticity, normality
+
+**Diagnostics**:
+- Residual plots (detect patterns)
+- Q-Q plots (check normality)
+- Leverage/influence (outliers)
+
+**Interactive**: Fit models to real ecological data, examine diagnostics
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/08_regression_analysis.ipynb)
+
+**Real Examples**: Height-diameter relationships, species-area curves, temperature-metabolism
+
+**Learning Time**: ~2 hours
+
+---
+
+### 9. ANOVA (Analysis of Variance) 📊
+
+**Topics**: One-way ANOVA, two-way ANOVA, post-hoc tests (Tukey HSD), assumptions
+
+**ANOVA Framework**:
+- **Question**: Do means differ among 3+ groups?
+- **Null (H₀)**: All group means equal
+- **Alternative (H₁)**: At least one differs
+- **F-statistic**: Variance between groups / Variance within groups
+
+**ANOVA Types**:
+- **One-way**: One factor (e.g., 4 fertilizer treatments)
+- **Two-way**: Two factors (e.g., fertilizer × watering)
+  - Main effects (fertilizer effect, watering effect)
+  - Interaction (does fertilizer effect depend on watering?)
+
+**Post-hoc Tests**:
+- ANOVA says "differences exist" but not WHERE
+- Tukey HSD: Pairwise comparisons (controls family-wise error rate)
+
+**Assumptions**:
+- Independence
+- Normality (within groups)
+- Homogeneity of variance (equal variances)
+
+**Pattern Recognition**: Large F = Groups differ more than expected by chance
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/09_anova.ipynb)
+
+**Real Examples**: Fertilizer trials, habitat comparisons, treatment effects
+
+**Learning Time**: ~2 hours
+
+---
+
+## 🎨 The Pattern Hunter Philosophy in Unit 4
+
+### The Stethoscope Analogy 🩺
+
+**Traditional Statistics**: "Here's the formula for normal distribution: f(x) = (1/√(2πσ²))e^(-(x-μ)²/(2σ²))"  
+→ Students memorize, forget, fear statistics
+
+**Pattern Hunter**: "The normal distribution is your 'stethoscope' for detecting random variation around a mean. Adjust μ and σ with sliders, SEE the bell curve shift and spread. NOW the formula makes sense - it describes what you already understand visually."
+
+### Pattern-First Learning Journey:
+
+**Traditional Path**:
+```
+Formula → Definition → Example → Confusion → Memorize → Forget
+```
+
+**Pattern Hunter Path**:
+```
+Interactive Visualization → Pattern Recognition → Ecological Context → 
+Intuition Built → Formula (as description) → Deep Understanding → Retention
+```
+
+### Concrete Examples:
+
+1. **Distributions**: See shapes (bell, J, exponential) BEFORE probabilities
+2. **Central Tendency**: Observe mean/median positions on histograms BEFORE calculations
+3. **Hypothesis Tests**: Visualize test statistic distributions BEFORE p-values
+4. **Regression**: Plot scatterplots, see trend lines BEFORE least squares
+5. **ANOVA**: Box plots show group differences BEFORE F-statistics
+
+**Result**: Statistics becomes pattern recognition, not formula manipulation.
+
+---
+
+## 🔗 Connections
+
+**From Units 1-3**: 
+- Energy pyramids → Data visualization
+- Exponential decay → Exponential distribution
+- Population growth → Regression models
+- Species-area → Log-log regression
+
+**Applications**: Every ecological question requires statistics. This unit provides the toolkit.
+
+---
+
+## 📊 Interactive Features
+
+✅ **Parameter sliders** for all distributions  
+✅ **Real-time visualizations** (curves update instantly)  
+✅ **Ecological examples** throughout  
+✅ **Hypothesis test simulators** (interactive p-values)  
+✅ **Regression diagnostics** (residual plots, Q-Q plots)  
+✅ **ANOVA calculators** with post-hoc tests  
+✅ **Pattern recognition exercises** ("Which distribution fits?")  
+✅ **Comprehensive code comments** (learn by reading)
+
+---
+
+## 🎓 Skills Developed
+
+### Statistical Thinking:
+- Recognizing distributional patterns
+- Selecting appropriate tests
+- Interpreting p-values correctly
+- Understanding Type I/II errors
+
+### Analytical:
+- Hypothesis formulation
+- Experimental design
+- Model fitting and diagnostics
+- Effect size vs statistical significance
+
+### Computational:
+- Python for statistics (SciPy, statsmodels)
+- Creating professional visualizations
+- Running simulations
+- Reproducible analysis
+
+### Communication:
+- Presenting statistical results
+- Visual communication (plots)
+- Interpreting for non-statisticians
+
+---
+
+## 📖 Recommended Reading
+
+### Statistics Foundations:
+- Zar, J. H. (2010). *Biostatistical Analysis*. 5th edition.
+- Sokal, R. R., & Rohlf, F. J. (2012). *Biometry*. 4th edition.
+- Quinn, G. P., & Keough, M. J. (2002). *Experimental Design and Data Analysis for Biologists*.
+
+### Pattern Hunter Philosophy:
+- Patel, A. & Kar, S. (2024). Interactive Ecology and Biometry. DOI: 10.5281/zenodo.14463277
+
+### Accessible Introductions:
+- Whitlock, M. C., & Schluter, D. (2020). *The Analysis of Biological Data*. 3rd edition.
+
+---
+
+## 💡 Teaching & Learning Tips
+
+### For Instructors:
+1. **Always start with visualization**: Show distribution shapes, let students explore
+2. **Use ecological examples**: "Does fertilizer work?" not "Is μ₁ ≠ μ₂?"
+3. **Emphasize interpretation**: p-value means what? Effect size matters!
+4. **Encourage exploration**: Sliders build intuition faster than lectures
+5. **Connect to research**: How do real ecologists use these tools?
+
+### For Students:
+1. **Play with sliders FIRST**: See patterns before formulas
+2. **Ask "Which stethoscope?"**: Match distribution to data type
+3. **Visualize data always**: Plot before testing
+4. **Check assumptions**: Tests fail if assumptions violated
+5. **Interpret, don't just calculate**: What does result MEAN biologically?
+
+---
+
+## 🌍 Real-World Applications
+
+- **Ecology**: Population comparisons, diversity analysis, growth models
+- **Conservation**: Monitoring programs, impact assessments, A/B testing
+- **Agriculture**: Fertilizer trials, cultivar comparisons, yield optimization
+- **Medicine**: Clinical trials, epidemiology, dose-response
+- **Environmental Science**: Pollution assessment, climate analysis
+
+---
+
+## 🛠️ Technical Requirements
+
+**Auto-installed**: Python 3.8+, NumPy, Pandas, SciPy, statsmodels, Plotly, Matplotlib  
+**Platform**: Google Colab (recommended) or local Jupyter  
+**Prerequisites**: Basic algebra; curiosity essential; fear of statistics optional (we'll fix that!)
+
+---
+
+## 📧 Support
+
+📧 aloksu@gmail.com | 💬 [GitHub Issues](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/issues) | 📚 [Main README](../)
 
 ---
 
 ## 📜 License
 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+**MIT License** - Free to use, modify, distribute with attribution.
 
-You are free to share and adapt with attribution.
-
-[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-
----
-
-## 🎓 Next Steps
-
-### Within This Unit:
-1. **Start** with [Notebook 1: Distributions](notebooks/01_distributions_exploration.ipynb)
-2. **Progress** through notebooks 2-6
-3. **Practice** with interactive elements
-4. **Master** hypothesis testing (Notebooks 5-6)
-
-### Beyond This Unit:
-- **Apply** to [Unit 1: Ecosystem Ecology](../unit-1-ecosystem/)
-- **Analyze** real ecological data
-- **Design** your own experiments
-- **Contribute** improvements to materials
-
----
-
-## 📬 Questions or Feedback?
-
-- 🐛 **Report issues**: [GitHub Issues](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/issues)
-- 💬 **Ask questions**: [GitHub Discussions](https://github.com/The-Pattern-Hunter/interactive-ecology-biometry/discussions)
-- 📧 **Contact**: Via main repository
+Copyright © 2024 Susama Kar & Dr. Alok Patel
 
 ---
 
 <div align="center">
 
-**Made with 💚 by Dr. Alok Patel**
+**📊 Unit 4: Biometry - Statistics with the Pattern Hunter Philosophy 📊**
 
-*"Discovering patterns in data, one distribution at a time"*
+**9 Interactive Notebooks • Distributions • Descriptive Stats • Sampling • Hypothesis Tests • Design • Regression • ANOVA**
 
-[📚 Main Repository](../) | [🌍 Unit 1: Ecosystem](../unit-1-ecosystem/) | [🎮 Interactive Notebooks](#-launch-interactive-notebooks)
+**The Stethoscope Analogy: Statistical Distributions as Diagnostic Instruments**
+
+[📓 Previous: Unit 3](../unit-3-community/) | [🏠 Home](../)
+
+**Made with 💚 by Dr. Alok Patel & Ms. Susama Kar**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14463277.svg)](https://doi.org/10.5281/zenodo.14463277)
 
 </div>
-```
-
