@@ -638,7 +638,7 @@ All **8 notebooks** include:
 - Platt, J. R. (1964). Strong inference. *Science*, 146(3642), 347-353.
 
 ### Pattern Hunter Philosophy:
-- Patel, A. & Kar, S. (2024). Interactive Ecology and Biometry. DOI: 10.5281/zenodo.14463277
+- Patel, A. & Kar, S. (2025). Interactive Ecology and Biometry. DOI: 10.5281/zenodo.14463277
 
 ---
 
