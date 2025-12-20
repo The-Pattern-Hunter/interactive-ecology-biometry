@@ -11,32 +11,70 @@
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start - Launch Any Notebook
 
-Click any badge below to launch instantly in Google Colab:
+Click **Open in Colab** to launch instantly in your browser:
 
-| Unit | Topic | Notebooks | Launch |
-|------|-------|-----------|--------|
-| **1** | **Ecosystem Ecology** | 7 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/) |
-| **2** | **Population Ecology** | 5 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/) |
-| **3** | **Community Ecology** | 6 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/) |
-| **4** | **Biometry & Statistics** | 9 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/) |
+### 📗 Unit 1: Ecosystem Ecology (7 notebooks)
+
+| # | Notebook | Topic | Launch |
+|---|----------|-------|--------|
+| 1 | Ecosystem Basics | Autecology vs Synecology | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/01_ecosystem_basics.ipynb) |
+| 2 | Food Webs & Energy Flow | Trophic levels, energy transfer | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/02_food_webs_energy_flow.ipynb) |
+| 3 | Ecological Pyramids | Energy, biomass, numbers | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/03_ecological_pyramids.ipynb) |
+| 4 | Biogeochemical Cycles | Carbon, nitrogen, phosphorus | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/04_biogeochemical_cycles.ipynb) |
+| 5 | Limiting Factors | Liebig's Law, tolerance ranges | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/05_limiting_factors.ipynb) |
+| 6 | Decomposers | Nature's recyclers | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/06_decomposers.ipynb) |
+| 7 | Scientific Method | Pattern Hunter philosophy | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-1-ecosystem/notebooks/07_scientific_method_pattern_hunter.ipynb) |
+
+[📚 Unit 1 Full Documentation →](unit-1-ecosystem/README.md)
 
 ---
 
-## 📚 What's Inside
+### 📘 Unit 2: Population Ecology (5 notebooks)
 
-### Unit 1: Ecosystem Ecology (7 notebooks)
-Ecosystem basics • Food webs • Energy pyramids • Biogeochemical cycles • Limiting factors • Decomposers • Scientific method
+| # | Notebook | Topic | Launch |
+|---|----------|-------|--------|
+| 1 | Population Growth Models | Exponential, logistic, r vs K | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/01_population_growth_models.ipynb) |
+| 2 | Life Tables & Survivorship | Type I/II/III curves, Dall sheep | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/02_life_tables_survivorship.ipynb) |
+| 3 | Age Structure & Demography | Population pyramids, transitions | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/03_age_structure_demography.ipynb) |
+| 4 | Population Regulation | Density-dependent, predator-prey | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/04_population_regulation.ipynb) |
+| 5 | Metapopulations | Levins model, source-sink | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-2-population/notebooks/05_metapopulations.ipynb) |
 
-### Unit 2: Population Ecology (5 notebooks)
-Growth models • Life tables • Age structure • Population regulation • Metapopulations
+[📚 Unit 2 Full Documentation →](unit-2-population/README.md)
 
-### Unit 3: Community Ecology (6 notebooks)
-Species interactions • Diversity indices • Succession • Trophic cascades • Island biogeography • Biomes
+---
 
-### Unit 4: Biometry & Statistics (9 notebooks)
-8 distributions • Descriptive stats • Sampling • Hypothesis testing • Experimental design • Regression • ANOVA
+### 📙 Unit 3: Community Ecology (6 notebooks)
+
+| # | Notebook | Topic | Launch |
+|---|----------|-------|--------|
+| 1 | Species Interactions | Competition, predation, mutualism | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/01_species_interactions.ipynb) |
+| 2 | Community Structure & Diversity | Shannon, Simpson indices | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/02_community_structure_diversity.ipynb) |
+| 3 | Ecological Succession | Primary, secondary succession | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/03_ecological_succession.ipynb) |
+| 4 | Keystone Species & Cascades | Yellowstone wolves, trophic cascades | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/04_keystone_species_cascades.ipynb) |
+| 5 | Island Biogeography | MacArthur-Wilson, species-area | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/05_island_biogeography.ipynb) |
+| 6 | Biomes | Whittaker diagram, climate-vegetation | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-3-community/notebooks/06_biomes.ipynb) |
+
+[📚 Unit 3 Full Documentation →](unit-3-community/README.md)
+
+---
+
+### 📕 Unit 4: Biometry & Statistics (9 notebooks)
+
+| # | Notebook | Topic | Launch |
+|---|----------|-------|--------|
+| 1 | Distributions Exploration | 8 probability distributions | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/01_distributions_exploration.ipynb) |
+| 2 | Central Tendency Analysis | Mean, median, mode | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/02_central_tendency_analysis.ipynb) |
+| 3 | Dispersion Measures | Range, variance, SD, CV | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/03_dispersion_measures.ipynb) |
+| 4 | Sampling Techniques | Random, stratified, systematic | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/04_sampling_techniques.ipynb) |
+| 5 | Hypothesis Testing | Chi-square, t-tests, p-values | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/05_hypothesis_testing.ipynb) |
+| 6 | Testing Fundamentals | Type I/II errors, power, CI | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/06_hypothesis_testing_fundamentals.ipynb) |
+| 7 | Experimental Design | Randomization, controls, blocking | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/07_experimental_design.ipynb) |
+| 8 | Regression Analysis | Linear, multiple, polynomial | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/08_regression_analysis.ipynb) |
+| 9 | ANOVA | One-way, two-way, post-hoc | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/The-Pattern-Hunter/interactive-ecology-biometry/blob/main/unit-4-biometry/notebooks/09_anova.ipynb) |
+
+[📚 Unit 4 Full Documentation →](unit-4-biometry/README.md)
 
 ---
 
@@ -78,27 +116,11 @@ Statistical distributions are **diagnostic instruments**:
 
 ---
 
-## 📊 Example Notebooks
-
-### 🌍 Biomes (Unit 3)
-Whittaker diagram • Climate-vegetation patterns • 8 major biomes • Interactive climate explorer
-
-### 📈 Population Growth (Unit 2)
-Exponential vs logistic • Interactive r and K sliders • Real population data • Growth curve explorer
-
-### 🔬 Distributions (Unit 4)
-8 probability distributions • Parameter manipulation • Ecological examples • Stethoscope analogy
-
-### 🦁 Trophic Cascades (Unit 3)
-Yellowstone wolf case study • Food web networks • Predator removal simulator • Keystone species
-
----
-
 ## 💻 Installation
 
 **Option 1: Google Colab** (Recommended)
 ```
-Click any Colab badge → Run cells → Start learning!
+Click any "Open in Colab" badge above → Run cells → Start learning!
 ```
 
 **Option 2: Local**
@@ -108,17 +130,6 @@ cd interactive-ecology-biometry
 pip install numpy pandas plotly matplotlib scipy networkx statsmodels
 jupyter notebook
 ```
-
----
-
-## 📖 Documentation
-
-Each unit has comprehensive documentation:
-
-- [**Unit 1 README**](unit-1-ecosystem/README.md) - Ecosystem ecology details
-- [**Unit 2 README**](unit-2-population/README.md) - Population ecology details
-- [**Unit 3 README**](unit-3-community/README.md) - Community ecology details
-- [**Unit 4 README**](unit-4-biometry/README.md) - Biometry & statistics details
 
 ---
 
